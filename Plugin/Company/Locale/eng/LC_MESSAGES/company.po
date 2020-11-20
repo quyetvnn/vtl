@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.4\n"
+
+msgid "menu_about_us"
+msgstr "About us"
+
+msgid "missing_company_id"
+msgstr "Missing Company ID"
+
+msgid "company"
+msgstr "Company"
+
+msgid "company_language"
+msgstr "Company: Language"
+
+msgid "company_languages"
+msgstr "Company: Languages"
+
+msgid "companies"
+msgstr "Company"
+
+msgid "add_company_language"
+msgstr "Add Company: Language"
+
+msgid "add_company"
+msgstr "Add Company"
+
+msgid "edit_company"
+msgstr "Edit company"
+
+msgid "edit_company_language"
+msgstr "Edit Company：Language"
+
+msgid "width"
+msgstr "Width"
+
+msgid "height"
+msgstr "Height"
+
+msgid "size"
+msgstr "Size"
+
+msgid "image_type_id"
+msgstr "Image Type ID"
+
+msgid "content"
+msgstr "Content"
+
+msgid "facebook"
+msgstr "Facebook"
+
+msgid "instagram"
+msgstr "Instagram"
+
+msgid "website"
+msgstr "Website"
+
+msgid "wechat"
+msgstr "Wechat"
+
+msgid "weibo"
+msgstr "Weibo"
+
+msgid "whatsapp"
+msgstr "WhatsApp"
+
+msgid "youtube"
+msgstr "YouTube"
+
+msgid "contact_person"
+msgstr "Contact Person"
+
+msgid "phone"
+msgstr "Phone"
+
+msgid "contact_phone"
+msgstr "Contact Phone"
+
+msgid "contact_email"
+msgstr "Contact Email"
+
+msgid "contact_job_title"
+msgstr "Contact job title"
+
+msgid "address"
+msgstr "Address"
+
+msgid "about"
+msgstr "About"
+
+msgid "terms"
+msgstr "Terms"
+
+msgid "privacy"
+msgstr "Privacy"
+
+msgid "hotline"
+msgstr "Hotline"
+
+msgid "service_time"
+msgstr "Service time"
+
+msgid "company_id"
+msgstr "Company ID"
+
+msgid "name"
+msgstr "Name"
+
+msgid "district"
+msgstr "District"
+
+msgid "service"
+msgstr "Service"
+
+msgid "code"
+msgstr "Code"
+
+msgid "geo_lat"
+msgstr "Latitude"
+
+msgid "geo_lng"
+msgstr "Longitude"
+
+msgid "click_here_to_get_lat_lng"
+msgstr "Click here to get latitude, Longitude"
+
+msgid "slug_with_remark"
+msgstr "Slug with remark"

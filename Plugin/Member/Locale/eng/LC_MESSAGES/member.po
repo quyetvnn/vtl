@@ -1,0 +1,1056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "admin_add_teacher_create_lesson"
+msgstr "Admin create teacher lesson"
+
+msgid "admin_teacher_create_lesson"
+msgstr "My Lesson"
+
+msgid "admin_edit_teacher_create_lesson"
+msgstr "Edit Lesson"
+
+msgid "start_time"
+msgstr "Start time"
+
+msgid "assistant_teacher"
+msgstr "Add other Teachers"
+
+msgid "list_class"
+msgstr "List class"
+
+msgid "teacher_id"
+msgstr "Teacher"
+
+msgid "title"
+msgstr "Lesson title"
+
+msgid "list_teacher"
+msgstr "Other Teachers"
+
+msgid "duration"
+msgstr "Duration"
+
+msgid "duration_hours"
+msgstr "Duration Hours"
+
+msgid "duration_minutes"
+msgstr "Duration Minutes"
+
+msgid "meeting"
+msgstr "Meeting link"
+
+msgid "school"
+msgstr "School"
+
+msgid "fail_to_login"
+msgstr "Failed to Login"
+
+msgid "recording_video"
+msgstr "Live lesson playback"
+
+msgid "please_login_first"
+msgstr "Please login first"
+
+msgid "this_account_dont_exist_teacher_role"
+msgstr "This account dont exist teacher role"
+
+msgid "this_account_dont_exist_student_role"
+msgstr "This account dont exist student role"
+
+msgid "page_not_found"
+msgstr "This page is being repaired"
+
+msgid "back_to_home"
+msgstr "Return to home page"
+
+msgid "technical_support"
+msgstr "Help"
+
+msgid "language"
+msgstr "Language"
+
+msgid "traditional_chinese"
+msgstr "繁體中文"
+
+msgid "simplified_chinese"
+msgstr "简体中文"
+
+msgid "recommend_video"
+msgstr "Recommended"
+
+msgid "download_app"
+msgstr "Download APP"
+
+msgid "sign_up"
+msgstr "Sign up"
+
+msgid "invalid_username"
+msgstr "Invalid username"
+
+msgid "invalid_password"
+msgstr "Invalid password"
+
+msgid "exist_username"
+msgstr "The user name has been existed"
+
+msgid "exist_email"
+msgstr "The email has been existed"
+
+msgid "exist_phone_number"
+msgstr "The phone number has been existed"
+
+msgid "send_mail_register_success_with_member"
+msgstr "Thanks for register! please check email %s and input the active code"
+
+msgid "send_mail_forgot_success_with_member"
+msgstr "We have sent a link for reset your password to email address: %s, please check your email"
+
+msgid "active_register_code"
+msgstr "Active register code"
+
+msgid "invalid_register_code"
+msgstr "Invalid register code"
+
+msgid "member_not_verified"
+msgstr "Member not yet verified email"
+
+msgid "invalid_token"
+msgstr "Invalid token"
+
+msgid "invalid_role"
+msgstr "Invalid role"
+
+msgid "enter_usename"
+msgstr "Username"
+
+msgid "enter_password"
+msgstr "Password"
+
+msgid "enter_school_code"
+msgstr "Please enter the 5-9 digit school code (if any)"
+
+msgid "create_new_account"
+msgstr "Or create a new account:"
+
+msgid "create_new_usename"
+msgstr "Account / 6 or more letters, numbers or characters"
+
+msgid "last_name"
+msgstr "Last name"
+
+msgid "first_name"
+msgstr "First name"
+
+msgid "email"
+msgstr "Email"
+
+msgid "phone_number"
+msgstr "Phone number"
+
+msgid "create_new_password"
+msgstr "Password / 8 or more letters, numbers or characters"
+
+msgid "show"
+msgstr "Show"
+
+msgid "hide"
+msgstr "Hide"
+
+msgid "term_n_privacy"
+msgstr "By tapping Sign up, I agree to All4LeARN’s"
+
+msgid "privacy_policy"
+msgstr "Privacy Policy"
+
+msgid "term"
+msgstr "Terms of use"
+
+msgid "and"
+msgstr "and"
+
+msgid "help"
+msgstr "Help"
+
+msgid "logout"
+msgstr "Logout"
+
+msgid "registration_success"
+msgstr "Registration success"
+
+msgid "registration_success_message"
+msgstr "You have successfully activated your account!"
+
+msgid "start_personal_setting"
+msgstr "Start personal setting"
+
+msgid "skip"
+msgstr "Skip"
+
+msgid "your_nickname"
+msgstr "Your nickname"
+
+msgid "next_step"
+msgstr "Next step"
+
+msgid "add_avatar"
+msgstr "Add avatar"
+
+msgid "picture_limit_5MB"
+msgstr "Picture is no larger than 5MB"
+
+msgid "complete"
+msgstr "Complete"
+
+msgid "verification_email"
+msgstr "Verification Email"
+
+msgid "have_not_received_the_verification_code"
+msgstr "Haven't received the verification code?"
+
+msgid "resend"
+msgstr "resend"
+
+msgid "my_page"
+msgstr "My page:"
+
+msgid "my_community"
+msgstr "My community:"
+
+msgid "add_class"
+msgstr "Add lesson"
+
+msgid "upload_material"
+msgstr "Add assignments"
+
+msgid "upload_videos"
+msgstr "Upload videos"
+
+msgid "subject"
+msgstr "Subject"
+
+msgid "select_account"
+msgstr "Select subject"
+
+msgid "for_example_liu_hefa_and_brain_map"
+msgstr "For example: Liu Hefa and brain map"
+
+msgid "which_name_do_you_want_the_class_card_to_display"
+msgstr "Which name do you want the lesson card to display?"
+
+msgid "about_this_lesson"
+msgstr "About this lesson"
+
+msgid "optional"
+msgstr "Optional"
+
+msgid "teaching_material"
+msgstr "Handouts"
+
+msgid "upload_file_or_drag_it_here"
+msgstr "Upload file or Drag it here"
+
+msgid "less_than_5mb_per_file"
+msgstr "Less than 5MB per file"
+
+msgid "class"
+msgstr "Class"
+
+msgid "choose_a_class"
+msgstr "Choose a class"
+
+msgid "co_teaching"
+msgstr "Co-teaching"
+
+msgid "choose_a_teacher"
+msgstr "Choose a teacher"
+
+msgid "date"
+msgstr "Date"
+
+msgid "sample_date"
+msgstr "Friday, April 24, 2020"
+
+msgid "time"
+msgstr "Time"
+
+msgid "from"
+msgstr "From"
+
+msgid "to"
+msgstr "To"
+
+msgid "repeat"
+msgstr "Repeat"
+
+msgid "no_repeat"
+msgstr "No repeat"
+
+msgid "every_day"
+msgstr "Daily"
+
+msgid "weekly"
+msgstr "Weekly"
+
+msgid "after"
+msgstr "time(s)"
+
+msgid "after_the_live_broadcast_should_the_video_be_opened_for_students_to_relive"
+msgstr "Record live classroom session for playback?"
+
+msgid "not_open"
+msgstr "No"
+
+msgid "open"
+msgstr "Open"
+
+msgid "submit"
+msgstr "Submit"
+
+msgid "the_class_card_will_be_displayed_on_each_participant_homepage_on_the_day_of_class"
+msgstr "The class card will be displayed on each participant ’s homepage on the day of class"
+
+msgid "subjects_you_teach"
+msgstr "Subjects you teach"
+
+msgid "determine"
+msgstr "Determine"
+
+msgid "multiple_choice"
+msgstr "Multiple choice"
+
+msgid "the_class_you_teach"
+msgstr "The class you teach"
+
+msgid "choose_a_teacher_to_teach_together"
+msgstr "Choose a teacher to teach together"
+
+msgid "all_teachers"
+msgstr "All teachers"
+
+msgid "other_subjects"
+msgstr "Other subjects"
+
+msgid "lesson_description_sample"
+msgstr "For example: How to use Liuhe method to write narrative? How do words add emotion to the article?"
+
+msgid "other_classes"
+msgstr "Other classes"
+
+msgid "use_invitation_code"
+msgstr "Use invitation code"
+
+msgid "symbol_comma"
+msgstr ", "
+
+msgid "invitation_letter"
+msgstr "Invitation letter"
+
+msgid "send_mail_succeed"
+msgstr "Send mail succeed"
+
+msgid "binding_account_succeed"
+msgstr "Binding account succeed"
+
+msgid "binding_account_failed"
+msgstr "Binding account failed"
+
+msgid "invite_member_histories"
+msgstr "Invite Member"
+
+msgid "verified"
+msgstr "Verified"
+
+msgid "member"
+msgstr "Member"
+
+msgid "username"
+msgstr "Username"
+
+msgid "register_code"
+msgstr "Register code"
+
+msgid "join_day"
+msgstr "Join day"
+
+msgid "invitation_code"
+msgstr "Invitation code"
+
+msgid "member_login_method"
+msgstr "Member login method"
+
+msgid "import_student"
+msgstr "Import student"
+
+msgid "import_teacher"
+msgstr "Import teacher"
+
+msgid "import_histories"
+msgstr "Import Member"
+
+msgid "import_histories_record"
+msgstr "Import Member Record"
+
+msgid "hello"
+msgstr "Hello"
+
+msgid "you_have_no_class_today"
+msgstr "You have no lesson today."
+
+msgid "today_you_have"
+msgstr "You have %s lesson today."
+
+msgid "classroom"
+msgstr "classroom"
+
+msgid "enter_the_classroom"
+msgstr "Enter the classroom"
+
+msgid "view_video"
+msgstr "View video"
+
+msgid "hello_teacher"
+msgstr "Hello"
+
+msgid "i_want_to_invite_you_to_become_a_tutor_of_this_school_are_you_a_member_of_ours"
+msgstr "want to invite you to become a %s of this school, are you a member of All4LeARN?"
+
+msgid "i_am_member"
+msgstr "I am member"
+
+msgid "no_i_want_to_register"
+msgstr "No, I want to register"
+
+msgid "sign_in_now_to_connect_you_with"
+msgstr "Please complete the form to activate the account."
+
+msgid "choose_a_school"
+msgstr "Choose a school"
+
+msgid "link_invite_not_availabled"
+msgstr "Link invite not valid"
+
+msgid "subject_confirm"
+msgstr "Verify your email address and activate your account"
+
+msgid "please_complete_the_form_below_to_activate_your_account"
+msgstr "Please complete the form below to activate your account."
+
+msgid "about_us"
+msgstr "About us"
+
+msgid "library"
+msgstr "Library"
+
+msgid "you_have_many_class_today"
+msgstr "You have %s classes today."
+
+msgid "explore"
+msgstr "Explore"
+
+msgid "limit_duration"
+msgstr "(Start time cannot be within 1 hour)"
+
+msgid "limit_frequence"
+msgstr "Max 5"
+
+msgid "student"
+msgstr "Student"
+
+msgid "teacher"
+msgstr "Teacher"
+
+msgid "download_as_assignment"
+msgstr "Download assignment"
+
+msgid "create_assignment"
+msgstr "Create assignment"
+
+msgid "download"
+msgstr "Download"
+
+msgid "student_name"
+msgstr "Student name"
+
+msgid "lesson_name"
+msgstr "Lesson name"
+
+msgid "view_assignment"
+msgstr "View assignment"
+
+msgid "submit_assignment"
+msgstr "Submit assignment"
+
+msgid "homework_name"
+msgstr "Assignment name"
+
+msgid "homework_name_sample"
+msgstr "For example: the construction of a square"
+
+msgid "homework_guidelines"
+msgstr "Assignment Guidelines"
+
+msgid "homework_guidelines_sample"
+msgstr "For example, explain the assignment format"
+
+msgid "file"
+msgstr "File"
+
+msgid "deadline_date_n_time"
+msgstr "Deadline"
+
+msgid "add_homework"
+msgstr "Add assignments"
+
+msgid "assignments"
+msgstr "My assignments"
+
+msgid "teacher_create_assignment"
+msgstr "Teachers create new assignments"
+
+msgid "student_submission"
+msgstr "Submitted Assignment"
+
+msgid "you_can_also_invite_other_teachers_to_observe"
+msgstr "Teaching observation"
+
+msgid "deadline"
+msgstr "Deadline submission time"
+
+msgid "upload_time"
+msgstr "Upload time"
+
+msgid "review_lesson"
+msgstr "Review the lesson"
+
+msgid "no_recording_video"
+msgstr "No live lesson playback"
+
+msgid "login_method"
+msgstr "Login method"
+
+msgid "token"
+msgstr "Token"
+
+msgid "message"
+msgstr "Message"
+
+msgid "add_invite_member_history"
+msgstr "Invite Member"
+
+msgid "add_member"
+msgstr "Add member"
+
+msgid "over"
+msgstr "over"
+
+msgid "end_time"
+msgstr "End time"
+
+msgid "cannot_setup_a_class_cross_to_next_day"
+msgstr "Dont allow setup a class cross to next day"
+
+msgid "start_time_cannot_from_past"
+msgstr "Dont allow start time from past"
+
+msgid "logout_succeed"
+msgstr "Logout succeed"
+
+msgid "logout_failed"
+msgstr "Logout failed"
+
+msgid "deadline_invalid"
+msgstr "Deadline invalid"
+
+msgid "score"
+msgstr "Score"
+
+msgid "remark"
+msgstr "Remark"
+
+msgid "feedback"
+msgstr "Feedback"
+
+msgid "view_assignment_feedback"
+msgstr "Download Graded Assignment"
+
+msgid "create_submission_feeback"
+msgstr "Create submission feedback"
+
+msgid "date_n_time"
+msgstr "Date and time"
+
+msgid "please_select_hours"
+msgstr "Please select hour(s)"
+
+msgid "please_select_minute"
+msgstr "Please select mintue(s)"
+
+msgid "organization_school_name"
+msgstr "Organization / School name"
+
+msgid "organization_school_code"
+msgstr "School code"
+
+msgid "organization_school_code_placeholder"
+msgstr "Please set the 5-9 digit school code"
+
+msgid "contact_person"
+msgstr "Contact person"
+
+msgid "contact_no"
+msgstr "Contact no."
+
+msgid "address"
+msgstr "Address"
+
+msgid "business_registration_proof"
+msgstr "Business registration proof"
+
+msgid "apply_now"
+msgstr "Apply now"
+
+msgid "why_choose"
+msgstr "Why choose "
+
+msgid "school_registration_notification"
+msgstr "School registration notification"
+
+msgid "internal_view_only"
+msgstr "(Internal view only)"
+
+msgid "operation"
+msgstr "Operation"
+
+msgid "create_school"
+msgstr "Create School Page"
+
+msgid "submit_create_school_success"
+msgstr "We have already received your application and will get back to you shortly."
+
+msgid "successfully_submit"
+msgstr "Sucessfully submit"
+
+msgid "confirm_leaving_create_school"
+msgstr "You have completed some parts of the form. Are you sure to leave?"
+
+msgid "back_to_form"
+msgstr "Back to Form"
+
+msgid "leave"
+msgstr "Leave"
+
+msgid "school_profile"
+msgstr "School Profile"
+
+msgid "school_information"
+msgstr "School Information"
+
+msgid "save"
+msgstr "Save"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "let_everyone_know_more_about_your_school"
+msgstr "Let everyone know more about your school"
+
+msgid "edit_introduction"
+msgstr "Edit Introduction"
+
+msgid "add_phone"
+msgstr "Add phone"
+
+msgid "add_email"
+msgstr "Add email"
+
+msgid "add_address"
+msgstr "Add address"
+
+msgid "later"
+msgstr "Later"
+
+msgid "mr"
+msgstr "Mr."
+
+msgid "ms"
+msgstr "Ms."
+
+msgid "mrs"
+msgstr "Mrs."
+
+msgid "change_cover_photo"
+msgstr "Change Banner"
+
+msgid "school_control_panel"
+msgstr "School control panel"
+
+msgid "upload_finished_assignment"
+msgstr "Upload the finished assignments"
+
+msgid "school_approval_completed"
+msgstr "School approval completed"
+
+msgid "school_approval_completed_message"
+msgstr "The school page you applied for has been successfully approved! You can now go to the school page to edit."
+
+msgid "start_to_manage_the_school"
+msgstr "Manage school now"
+
+msgid "update_password"
+msgstr "Update password"
+
+msgid "current_password"
+msgstr "Current password"
+
+msgid "new_password"
+msgstr "New password"
+
+msgid "repeat_new_password"
+msgstr "Repeat new password"
+
+msgid "forget_password"
+msgstr "Forget password?"
+
+msgid "topup"
+msgstr "Top up"
+
+msgid "school_actual_credit"
+msgstr "As of Today %s; you have"
+
+msgid "topup_coins"
+msgstr "Top up token(s)"
+
+msgid "coin"
+msgstr "Token"
+
+msgid "input_quantity"
+msgstr "Input quantity"
+
+msgid "top_up_success"
+msgstr "Status of token recharging"
+
+msgid "top_up_success_message"
+msgstr "Thank you for your payment, the <span class='text-green'>%s tokens</span> are added to <span class='text-green'>%s</span>."
+
+msgid "done"
+msgstr "Done"
+
+msgid "top_up_fail"
+msgstr "Top up fail"
+
+msgid "top_up_fail_message"
+msgstr "Sorry, something wrong about the payment. Please try again or contact 全民學習All4LeARN for support."
+
+msgid "members_credits"
+msgstr "Members credits"
+
+msgid "members_credit"
+msgstr "Members credit"
+
+msgid "add_members_credit"
+msgstr "Add members credit"
+
+msgid "school_admin"
+msgstr "School admin"
+
+msgid "pay_dollar_ref"
+msgstr "Pay dollar ref"
+
+msgid "confirm"
+msgstr "Confirm"
+
+msgid "back"
+msgstr "Back"
+
+msgid "confirm_topup_message"
+msgstr "Do you want to top up <span class='text-green'>%s tokens</span> to <span class='text-green'>%s</span>?"
+
+msgid "membership"
+msgstr "Membership"
+
+msgid "edit_school"
+msgstr "Edit %s"
+
+msgid "this_class_empty_student"
+msgstr "This class empty student"
+
+msgid "teachers_assignments"
+msgstr "Teacher's assignments"
+
+msgid "period"
+msgstr "Period"
+
+msgid "disable_account"
+msgstr "Disable Account"
+
+msgid "enabled_account"
+msgstr "Enabled account"
+
+msgid "reset_password"
+msgstr "Change Password"
+
+msgid "send_email_successfully"
+msgstr "Send email successfully"
+
+msgid "member_manage_school"
+msgstr "Member manage school"
+
+msgid "member_manage_schools"
+msgstr "Member manage schools"
+
+msgid "add_member_manage_schools"
+msgstr "Add member manage schools"
+
+msgid "teacher_role"
+msgstr "Teacher role"
+
+msgid "student_role"
+msgstr "Student role"
+
+msgid "edit_homework"
+msgstr "Edit homework"
+
+msgid "download_all"
+msgstr "Download Selected"
+
+msgid "resubmit"
+msgstr "Resubmit"
+
+msgid "edit_member_login_method"
+msgstr "Edit member login method"
+
+msgid "deadline_for_submission"
+msgstr "Deadline for Submission"
+
+msgid "views"
+msgstr "Views"
+
+msgid "grading"
+msgstr "Grading"
+
+msgid "teacher_feedback_assignment"
+msgstr "Assignment Grading"
+
+msgid "member_record"
+msgstr "Member Record"
+
+msgid "create_member"
+msgstr "Create Member"
+
+msgid "members"
+msgstr "Member List"
+
+msgid "invite_member_record"
+msgstr "Invite Member Record"
+
+msgid "faqs"
+msgstr "FAQs"
+
+msgid "userguide"
+msgstr "Userguide"
+
+msgid "submission_time"
+msgstr "Submission Time"
+
+msgid "name"
+msgstr "Name"
+
+msgid "download_template"
+msgstr "Download template"
+
+msgid "description"
+msgstr "Description"
+
+msgid "class_id"
+msgstr "Class ID"
+
+msgid "class_type"
+msgstr "Class Type"
+
+msgid "class_no"
+msgstr "Class No"
+
+msgid "field_import"
+msgstr "%1$s"
+
+msgid "required_inport_student"
+msgstr "REQUIRED: %s, %s, %s"
+
+msgid "required_inport_teacher"
+msgstr "REQUIRED: %s, %s, %s"
+
+msgid "optional_inport"
+msgstr "OPTIONAL: %s, %s"
+
+msgid "field_defined"
+msgstr "%s: %s"
+
+msgid "username_defined"
+msgstr "space character is not allowed"
+
+msgid "class_id_defined"
+msgstr "(integer): Id from School classes"
+
+msgid "class_type_defined"
+msgstr "(integer) 1: Primary Class， 0 Other Class"
+
+msgid "class_no_defined"
+msgstr "(integer)"
+
+msgid "choose_file"
+msgstr "Choose file"
+
+msgid "no_file_choosen"
+msgstr "Not yet chosen any files"
+
+msgid "token_explains"
+msgstr "1 token = HK$1 <br> Tokens are non-refundable <br> Tokens cannot exchange in cash"
+
+msgid "purchase_success_message"
+msgstr "We have received your request of token recharging and your request is under processing"
+
+msgid "send_confirm_payment"
+msgstr "Your request of recharge token is processing"
+
+msgid "add_confirm_payment"
+msgstr "Notice for token recharge"
+
+msgid "a4l_right_reserved"
+msgstr "*All rights reserved to All4LeARN"
+
+msgid "this_score_is_set_cannot_upload_again"
+msgstr "Teacher had give scored already, cannot upload new assginment"
+
+msgid "overlap"
+msgstr "Overlapped lesson"
+
+msgid "overlap_message"
+msgstr "This lesson is overlapped with exist lesson: %s - %s - %s:%s"
+
+msgid "enter_email_reset_password"
+msgstr "Please enter the registered email address, and we will send you a link to reset your password; if you are using a school account, please contact your school for help."
+
+msgid "remmeber_password"
+msgstr "Do you remember the password?"
+
+msgid "try_to_login"
+msgstr "Try to login"
+
+msgid "forgot_password"
+msgstr "Forgot password"
+
+msgid "email_does_not_exist"
+msgstr "Email does not exist"
+
+msgid "password_reset_successfully_message"
+msgstr "You can now log in to your account with the new password"
+
+msgid "password_reset_successfully"
+msgstr "Password reset successfully"
+
+msgid "reset_your_password"
+msgstr "Reset your password"
+
+msgid "please_enter_new_password"
+msgstr "Please enter a new password"
+
+msgid "confirm_your_new_password"
+msgstr "Confirm your new password"
+
+msgid "import_file_teacher"
+msgstr "Import teacher"
+
+msgid "export_teacher"
+msgstr "Export teacher"
+
+msgid "teacher_name_platform_account"
+msgstr "Teacher name/platform account"
+
+msgid "show_name"
+msgstr "Show name"
+
+msgid "reset_password"
+msgstr "Reset Password"
+
+msgid "auto_daily_report_transactions"
+msgstr "Auto daily report transactions"
+
+msgid "email_is_confirm"
+msgstr "Email confirmed"
+
+msgid "confirm_change_email_address"
+msgstr "Confirm change email address"
+
+msgid "overlap_notice"
+msgstr "Overlap in lesson time"
+
+msgid "no_permission"
+msgstr "No permission"
+
+msgid "host_key"
+msgstr "Host Key"
+
+msgid "exist_username_in_group"
+msgstr "The user name has been existed in group"
+
+msgid "lesson_title"
+msgstr "Lesson title"
+
+msgid "display_name"
+msgstr "Display name"
+
+msgid "upload_max_size_file"
+msgstr "Less than %s per file"
+
+msgid "supported_file"
+msgstr "Supported file types"
+
+msgid "today"
+msgstr "Today"
+
+msgid "sunday"
+msgstr "Sun"
+
+msgid "monday"
+msgstr "Mon"
+
+msgid "tuesday"
+msgstr "Tue"
+
+msgid "wednesday"
+msgstr "Wed"
+
+msgid "thursday"
+msgstr "Thu"
+
+msgid "friday"
+msgstr "Fri"
+
+msgid "saturday"
+msgstr "Sat"
+
+msgid "week"
+msgstr "Week"
+
+msgid "month"
+msgstr "Month"
+
+msgid "features"
+msgstr "New features"
+
+msgid "link_invite_used"
+msgstr "Invitation link used"
+
+msgid "record_note"
+msgstr "(If pressed \"Yes\", please turn on the \"record\" button at live classroom.)"

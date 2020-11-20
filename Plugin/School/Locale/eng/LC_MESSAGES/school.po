@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "school"
+msgstr "School"
+
+msgid "schools"
+msgstr "Schools"
+
+msgid "add_school"
+msgstr "Add school"
+
+msgid "edit_school"
+msgstr "Edit school"
+
+msgid "school_code"
+msgstr "School code"
+
+msgid "credit_charge"
+msgstr "Credit charge"
+
+msgid "credit"
+msgstr "Credit"
+
+msgid "address"
+msgstr "Address"
+
+msgid "level"
+msgstr "Level"
+
+msgid "school_class"
+msgstr "Classes"
+
+msgid "school_classes"
+msgstr "Classes"
+
+msgid "add_school_class"
+msgstr "Add Classes"
+
+msgid "edit_school_class"
+msgstr "Edit Classes"
+
+msgid "about_us"
+msgstr "About Us"
+
+msgid "school_subject"
+msgstr "Subject"
+
+msgid "school_subjects"
+msgstr "Subjects"
+
+msgid "add_school_subject"
+msgstr "Add subject"
+
+msgid "edit_school_subject"
+msgstr "Edit subject"
+
+msgid "school_business_registration"
+msgstr "School business registration"
+
+msgid "student_classes"
+msgstr "Create classes"
+
+msgid "create_classes"
+msgstr "Create classes"
+
+msgid "student_class"
+msgstr "Schedule Class"
+
+msgid "add_student_class"
+msgstr "Add Schedule class"
+
+msgid "edit_student_class"
+msgstr "Edit Schedule class"
+
+msgid "class_no"
+msgstr "Class no"
+
+msgid "second_class"
+msgstr "Second class"
+
+msgid "primary_class"
+msgstr "Primary class"
+
+msgid "student_is_exist"
+msgstr "Student is exist"
+
+msgid "school_code_is_exist"
+msgstr "School code is exist"
+
+msgid "school_logo"
+msgstr "School logo"
+
+msgid "normal"
+msgstr "Normal"
+
+msgid "blocked"
+msgstr "Blocked"
+
+msgid "closed"
+msgstr "Closed"
+
+msgid "duplicate_logo_banner"
+msgstr "One school just allow one logo and one banner only"
+
+msgid "schedule_the_class"
+msgstr "Schedule The Class"
+
+msgid "school_not_available"
+msgstr "School is not available"
+
+msgid "assignment_not_available"
+msgstr "Assignment is not available"
+
+msgid "bulletin_board"
+msgstr "Bulletin Board"
+
+msgid "category"
+msgstr "Category"
+
+msgid "add_student_to_class"
+msgstr "Add student to class"
+
+msgid "add_all_student_to_class"
+msgstr "Add all student to class"
+
+msgid "upgrade_class"
+msgstr "Upgrade class"
+
+msgid "please_choose_student"
+msgstr "Please choose student"

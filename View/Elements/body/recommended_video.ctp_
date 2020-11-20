@@ -1,0 +1,336 @@
+
+<div class="row">
+	<div class="col-xs-12">
+		<div class="second-text"> 推薦影片 </div>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-xs-12">
+	<!-- <div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://player.vimeo.com/video/406276436" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			
+			<div class="col-md-2">
+				<span class='avatar'><img src="/img/temp_/all4learn_avator.png"></span>
+			</div>
+			
+			<div class="col-md-12">
+				<div class='title'> 全民學習 示範影片 </div>
+				<div class='view'> 28位同學已觀看．1日前</div>
+			
+			</div>
+		</div>
+
+	</div> -->
+	<!-- <div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://player.vimeo.com/video/406276606" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			
+			<div class="col-md-2">
+				<span class='avatar'></span>
+			</div>
+			
+			<div class="col-md-12">
+				<div class='title'> 全民學習 高永文醫生講話 </div>
+				<div class='view'> 128位同學已觀看．2日前</div>
+			
+			</div>
+		</div>
+	</div> -->
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+
+			<iframe src="https://www.youtube.com/embed/8KPQByduqLM" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'><img style="display: none; " src="/img/temp_/all4learn_avator.png"></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/Qad0XNx9V_c" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/QwSXACfHK2Q" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/4xGFo_lYUrs" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/jRjcECymrZ8" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/xbYMe2lNKNs" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/81ioGSNr9nY" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/7Ron6MN45LY" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/x2YJVpf3xdQ" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/cbdYQXE_4Zw" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/Tnavzx0csU0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/KlxDxTmiti8" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/fcQHg0vwrVo" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/6unxt3378i0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/C8hlDwGGT8E" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-sm-3 col-md-3">
+		<div class="videoWrapper">
+			<iframe src="https://www.youtube.com/embed/lVwgdr8X0wo" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		</div>
+
+		<div class="row video-content">
+			<div class="col-md-2 col-xs-2">
+				<div class='avatar-demo'></div>
+			</div>
+			<div class="col-md-10 col-xs-10">
+			<!--
+				<p class="text-title">全民學習 示範影片</p>
+			-->
+				<p class="text-desc"></p>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>

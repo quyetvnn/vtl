@@ -1,0 +1,928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_HK\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "home"
+msgstr "首頁"
+
+msgid "administrator"
+msgstr "管理員"
+
+msgid "administrators"
+msgstr "管理員一覧"
+
+msgid "permissions"
+msgstr "權限一覧"
+
+msgid "roles"
+msgstr "角色一覧"
+
+msgid "company"
+msgstr "公司"
+
+msgid "companies"
+msgstr "公司一覧"
+
+msgid "brands"
+msgstr "品牌一覧"
+
+msgid "shops"
+msgstr "店舖一覧"
+
+msgid "coupon"
+msgstr "優惠券"
+
+msgid "coupons"
+msgstr "優惠券一覧"
+
+msgid "fact"
+msgstr "應用資料"
+
+msgid "facts"
+msgstr "應用資料一覧"
+
+msgid "menu"
+msgstr "菜單"
+
+msgid "menus"
+msgstr "菜單一覧"
+
+msgid "searches"
+msgstr "搜尋網頁設定"
+
+msgid "member"
+msgstr "會員"
+
+msgid "members"
+msgstr "會員一覧"
+
+msgid "devices"
+msgstr "會員裝置"
+
+msgid "member_verifications"
+msgstr "會員驗證紀錄"
+
+msgid "member_coupons"
+msgstr "會員所持優惠券"
+
+msgid "member_points"
+msgstr "會員積分"
+
+msgid "member_pushes"
+msgstr "會員推送紀錄"
+
+msgid "point"
+msgstr "積分規則"
+
+msgid "expiration_schemas"
+msgstr "積分過期規則"
+
+msgid "point_schemes"
+msgstr "積分規則"
+
+msgid "promotion"
+msgstr "推廣資訊"
+
+msgid "promotions"
+msgstr "推廣資訊一覧"
+
+msgid "add_promotions"
+msgstr "加入推廣資訊"
+
+msgid "push"
+msgstr "推送消息"
+
+msgid "pushes"
+msgstr "推送消息一覧"
+
+msgid "push_rules"
+msgstr "推送消息規則"
+
+msgid "add_new_push"
+msgstr "新增推送消息"
+
+msgid "add_new_push_rule"
+msgstr "新增推送消息"
+
+msgid "push_method"
+msgstr "推送方法"
+
+msgid "service"
+msgstr "店舖描述"
+
+msgid "services"
+msgstr "店舖描述一覧"
+
+msgid "staff"
+msgstr "員工管理"
+
+msgid "staffs"
+msgstr "員工一覧"
+
+msgid "staffs_shops"
+msgstr "員工：店舖"
+
+msgid "dictionary"
+msgstr "系統基礎設定"
+
+msgid "vocabularies"
+msgstr "詞彙一覧"
+
+msgid "image_types"
+msgstr "圖片類別一覧"
+
+msgid "languages"
+msgstr "語言一覧"
+
+msgid "currencies"
+msgstr "貨幣一覧"
+
+msgid "please_select"
+msgstr "請選擇"
+
+msgid "Please select"
+msgstr "請選擇"
+
+msgid "please_input"
+msgstr "請輸入"
+
+msgid "submit"
+msgstr "提交"
+
+msgid "enabled"
+msgstr "啟用"
+
+msgid "disabled"
+msgstr "停用"
+
+msgid "reset"
+msgstr "重設"
+
+msgid "search"
+msgstr "搜尋"
+
+msgid "export"
+msgstr "匯出CSV"
+
+msgid "export_excel"
+msgstr "匯出Excel"
+
+msgid "data_is_saved"
+msgstr "資料已儲存"
+
+msgid "many_data_is_saved"
+msgstr "%s項資料已儲存"
+
+msgid "data_is_not_saved"
+msgstr "資料未儲存，請重試"
+
+msgid "data_is_deleted"
+msgstr "資料已刪除"
+
+msgid "data_is_disabled"
+msgstr "數據被禁用"
+
+msgid "data_is_not_disabled"
+msgstr "數據未被禁用"
+
+msgid "data_is_not_deleted"
+msgstr "資料未刪除，請重試"
+
+msgid "data_not_delete_was_used"
+msgstr "數據未被删除，因為它已被使用"
+
+msgid "invalid_data"
+msgstr "無效資料"
+
+msgid "remember_me"
+msgstr "記住我"
+
+msgid "login"
+msgstr "登入"
+
+msgid "forget_password"
+msgstr "忘記密碼"
+
+msgid "powered_by"
+msgstr "powered By"
+
+msgid "operation"
+msgstr "操作"
+
+msgid "created_by"
+msgstr "創建用戶"
+
+msgid "created"
+msgstr "創建時間"
+
+msgid "updated_by"
+msgstr "更新用戶"
+
+msgid "updated"
+msgstr "最後更新"
+
+msgid "are_you_sure_to_delete"
+msgstr "是否確認刪除 %s"
+
+msgid "are_you_sure_to_disable"
+msgstr "你确定要禁用嗎 %s， 如果要再開要從新新增另個推送消息"
+
+msgid "view"
+msgstr "檢視"
+
+msgid "upgrade"
+msgstr "升級"
+
+msgid "add"
+msgstr "新增"
+
+msgid "edit"
+msgstr "編輯"
+
+msgid "delete"
+msgstr "刪除"
+
+msgid "add_image"
+msgstr "新增圖片"
+
+msgid "image_type"
+msgstr "圖片類別"
+
+msgid "image"
+msgstr "圖片"
+
+msgid "old_password_same_as_new_password"
+msgstr "舊密碼不可以像新的密碼"
+
+msgid "new_password_not_match_renew_password"
+msgstr "未能取得質料，請重試"
+
+msgid "retrieve_data_successfully"
+msgstr "成功取得資料"
+
+msgid "retrieve_data_not_successfully"
+msgstr "未能取得資料，請重試"
+
+msgid "missing_parameter"
+msgstr "資料不足: "
+
+msgid "invalid_image_type"
+msgstr "沒有此圖片類別"
+
+msgid "export_csv_fail"
+msgstr "無法匯出CSV，請重試"
+
+msgid "no_record"
+msgstr "沒有紀錄"
+
+msgid "is_default"
+msgstr "預設"
+
+msgid "slug"
+msgstr "別號"
+
+msgid "sorting"
+msgstr "排序"
+
+msgid "alias"
+msgstr "別號"
+
+msgid "id"
+msgstr "編號"
+
+msgid "path"
+msgstr "檔案位置"
+
+msgid "width"
+msgstr "寬度"
+
+msgid "height"
+msgstr "高度"
+
+msgid "size"
+msgstr "大小"
+
+msgid "email"
+msgstr "電郵地址"
+
+msgid "required_text_remark"
+msgstr "(<font color=\"red\">*</font>為必填項)"
+
+msgid "archived"
+msgstr "存檔"
+
+msgid "statement"
+msgstr "状态"
+
+msgid "remark"
+msgstr "備註"
+
+msgid "please_login"
+msgstr "請先登入"
+
+msgid "please_login_again"
+msgstr "請重新登入"
+
+msgid "network_error"
+msgstr "網絡有誤，請重試"
+
+msgid "jan"
+msgstr "1月"
+
+msgid "feb"
+msgstr "2月"
+
+msgid "mar"
+msgstr "3月"
+
+msgid "apr"
+msgstr "4月"
+
+msgid "may"
+msgstr "5月"
+
+msgid "jun"
+msgstr "6月"
+
+msgid "jul"
+msgstr "7月"
+
+msgid "aug"
+msgstr "8月"
+
+msgid "oct"
+msgstr "10月"
+
+msgid "nov"
+msgstr "11月"
+
+msgid "dec"
+msgstr "12月"
+
+msgid "default_all_select"
+msgstr "沒有揀選時，預設為該項目全選"
+
+msgid "prefix"
+msgstr "prefix"
+
+msgid "all"
+msgstr "全選"
+
+msgid "parent"
+msgstr "亲"
+
+msgid "parent_id"
+msgstr "上層編號"
+
+msgid "parent_slug"
+msgstr "上層別號"
+
+msgid "parent_name"
+msgstr "上層名稱"
+
+msgid "edit_password"
+msgstr "更改密碼"
+
+msgid "old_password"
+msgstr "舊的密碼"
+
+msgid "new_password"
+msgstr "新的密碼"
+
+msgid "confirm_new_password"
+msgstr "確定新的密碼"
+
+msgid "username_password_not_found"
+msgstr "密碼錯誤"
+
+msgid "update_password_succeed"
+msgstr "成功更改密碼"
+
+msgid "newpw_confirmpw_not_match"
+msgstr "新的密碼和確定密碼不相同數字"
+
+msgid "must_have_role_prefix"
+msgstr "【注意： 要有 'role-' prefix】"
+
+msgid "must_have_perm_admin_prefix"
+msgstr "【注意： 要有 'perm-admin-' prefix】"
+
+msgid "collapse_all"
+msgstr "全部收縮"
+
+msgid "have_parent"
+msgstr "有上層"
+
+msgid "have_not_parent"
+msgstr "沒有上層"
+
+msgid "expand_all"
+msgstr "全部展開"
+
+msgid "no_data"
+msgstr "暫時沒有資料"
+
+msgid "thumbnail"
+msgstr "缩略图"
+
+msgid "invalid_company"
+msgstr "公司无效"
+
+msgid "invalid_brand"
+msgstr "品牌无效"
+
+msgid "saved_succeed"
+msgstr "保存成功"
+
+msgid "saved_failed"
+msgstr "保存失敗"
+
+msgid "version"
+msgstr "版本"
+
+msgid "payment_method"
+msgstr "付款方法"
+
+msgid "page_not_found"
+msgstr "找不到您正在寻找的页面"
+
+msgid "zho_language"
+msgstr "繁體中文"
+
+msgid "chi_language"
+msgstr "簡體中文"
+
+msgid "eng_language"
+msgstr "英文"
+
+msgid "does_not_permission_to_access"
+msgstr "您没有权限访问這页面"
+
+msgid "method_is_not_allow"
+msgstr "不允许使用此方法"
+
+msgid "type"
+msgstr "類型"
+
+msgid "code"
+msgstr "號碼"
+
+msgid "number"
+msgstr "數"
+
+msgid "target"
+msgstr "目標"
+
+msgid "url"
+msgstr "網址"
+
+msgid "file"
+msgstr "文件"
+
+msgid "good_morning"
+msgstr "早上好"
+
+msgid "good_afternoon"
+msgstr "下午好"
+
+msgid "good_evening"
+msgstr "晚上好"
+
+msgid "show_duplicate_permission"
+msgstr "顯示重複權限"
+
+msgid "same_permission_not_found"
+msgstr "找不到重複權限"
+
+msgid "duplicate_email_exists"
+msgstr "電郵地址已經存在"
+
+msgid "status"
+msgstr "狀態"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "exist_phone_number"
+msgstr "電話號碼已存在"
+
+msgid "description"
+msgstr "短描述"
+
+msgid "content"
+msgstr "內容"
+
+msgid "terms"
+msgstr "條款及細則"
+
+msgid "privacy"
+msgstr "私隱政策"
+
+msgid "address"
+msgstr "地址"
+
+msgid "hotline"
+msgstr "熱線"
+
+msgid "service_time"
+msgstr "服務時間"
+
+msgid "opening"
+msgstr "營業時間"
+
+msgid "log"
+msgstr "日記"
+
+msgid "logs"
+msgstr "日記一覽"
+
+msgid "log_api"
+msgstr "Log API"
+
+msgid "sign_in_first"
+msgstr "请先登录"
+
+msgid "missing_id"
+msgstr "未有提供ID"
+
+msgid "console"
+msgstr "控制台"
+
+msgid "not_used_in_mobile"
+msgstr "您現在正在使用手機, 如果想要使用這個功能請轉用PC或tablet"
+
+msgid "age"
+msgstr "年齡組別"
+
+msgid "gender"
+msgstr "性別"
+
+msgid "district"
+msgstr "地區"
+
+msgid "month_of_birth"
+msgstr "出生月份"
+
+msgid "mon"
+msgstr "星期一"
+
+msgid "tue"
+msgstr "星期二"
+
+msgid "wed"
+msgstr "星期三"
+
+msgid "thu"
+msgstr "星期四"
+
+msgid "fri"
+msgstr "星期五"
+
+msgid "sat"
+msgstr "星期六"
+
+msgid "sun"
+msgstr "星期日"
+
+msgid "execute_time"
+msgstr "执行時間"
+
+msgid "yearly"
+msgstr "每年"
+
+msgid "monthly"
+msgstr "每月"
+
+msgid "daily"
+msgstr "每日"
+
+msgid "weekday"
+msgstr "平日"
+
+msgid "specific_date"
+msgstr "具体日期"
+
+msgid "other"
+msgstr "其他"
+
+msgid "please_provide_information"
+msgstr "請提供足夠的資料"
+
+msgid "language"
+msgstr "語言"
+
+msgid "publish"
+msgstr "發布"
+
+msgid "unpublish"
+msgstr "取消發布"
+
+msgid "is_public"
+msgstr "發布"
+
+msgid "do_you_want_to_publish_or_un"
+msgstr "你想%s【%s】嗎"
+
+msgid "yes"
+msgstr "是"
+
+msgid "no"
+msgstr "否"
+
+msgid "close"
+msgstr "關"
+
+msgid "approve"
+msgstr "批準"
+
+msgid "reject"
+msgstr "拒絕"
+
+msgid "slug_start_with"
+msgstr "必须从【%s】开始"
+
+msgid "confirm_continuous_edit_pending"
+msgstr "有一个新項目未批准紀錄。 您想繼續编辑此【%s】吗"
+
+msgid "obj_detail"
+msgstr "%s詳情"
+
+msgid "obj_histories"
+msgstr "%s日記"
+
+msgid "obj_have_not_approved"
+msgstr "這个項目【%s】還未批準"
+
+msgid "obj_is_disabled"
+msgstr "%s 編號【%s】 已經停用"
+
+msgid "obj_is_enabled"
+msgstr "%s 編號【%s】 開始啟用"
+
+msgid "do_you_want_to_change_status"
+msgstr "你想換狀態[action]吗"
+
+msgid "confirm_change_status"
+msgstr "确定更改狀態"
+
+msgid "obj_is_published"
+msgstr "【%s】 已經發布了"
+
+msgid "obj_is_rejected"
+msgstr "【%s】 已经被拒絕了"
+
+msgid "allow_public"
+msgstr "容許公開"
+
+msgid "email_subject_confirm"
+msgstr "【%s】 有一个項目屬於【%s】等您批準"
+
+msgid "reduct"
+msgstr "扣除"
+
+msgid "do_nothing"
+msgstr "請選擇"
+
+msgid "enable_multiple_same_not_allow"
+msgstr "Enable multiple %s for the same %s is not allowed"
+
+msgid "overlap_is_not_allowed"
+msgstr "%s for the same %s can not be overlap"
+
+msgid "should_be_greater_than_zero"
+msgstr "%s should be greater than zero(0)"
+
+msgid "cj_birthday_title"
+msgstr "【生日驚喜．大激賞】送你生日電子優惠券一張"
+
+msgid "cj_birthday_message"
+msgstr "慶祝生日不一定只限食生日蛋糕！ 到茶木慶祝，T-Factory已為你準備蜜糖磚塊過生日！ 祝你有最好的，屬於你的一天！(詳情查看我的優惠券)"
+
+msgid "cj_reactive_account_title"
+msgstr "【激活戶口】"
+
+msgid "cj_reactive_account_message"
+msgstr "已經一個月了，不見你來訪， 有很多禮物要等你來拿(詳情查看我的優惠券)"
+
+msgid "cj_account_expire_week_title"
+msgstr "【到期帳號】您的帳號将在下周过期"
+
+msgid "cj_account_expire_week_message"
+msgstr "您的帳號将在下周过期"
+
+msgid "cj_account_expire_month_title"
+msgstr "【过期帳號】您的帳號将于下个月过期"
+
+msgid "cj_account_expire_month_message"
+msgstr "您的帳號将于下个月过期"
+
+msgid "cj_point_expire_week_title"
+msgstr "【到期分數】您的分将在下周过期"
+
+msgid "cj_point_expire_week_message"
+msgstr "您的分将在下周过期"
+
+msgid "cj_point_expire_month_title"
+msgstr "【到期分數】您的分将在下周下周过期"
+
+msgid "cj_point_expire_month_message"
+msgstr "您的分将在下个月过期"
+
+msgid "plugin"
+msgstr "Plugin"
+
+msgid "controller"
+msgstr "Controller"
+
+msgid "action"
+msgstr "Action"
+
+msgid "error"
+msgstr "Error"
+
+msgid "device_token"
+msgstr "設備令牌"
+
+msgid "received_params"
+msgstr "收到了參數"
+
+msgid "cj_expire_month_message"
+msgstr "您的帳號将于下个月过期"
+
+msgid "transfer"
+msgstr "Transfer"
+
+msgid "transfer_label"
+msgstr "Transfer %s"
+
+msgid "age_group"
+msgstr "年齡階層"
+
+msgid "month"
+msgstr "月"
+
+msgid "week"
+msgstr "周"
+
+msgid "percent_of_active"
+msgstr "活躍成員的百分比"
+
+msgid "zho_name"
+msgstr "繁體中文"
+
+msgid "chi_name"
+msgstr "簡體中文"
+
+msgid "eng_name"
+msgstr "English"
+
+msgid "vie_name"
+msgstr "Vietnam"
+
+msgid "zho_short_name"
+msgstr "HK"
+
+msgid "chi_short_name"
+msgstr "Chi"
+
+msgid "eng_short_name"
+msgstr "Eng"
+
+msgid "vie_short_name"
+msgstr "VN"
+
+msgid "data_is_empty"
+msgstr "數據是空的"
+
+msgid "email_subject_verify_account"
+msgstr "驗證賬戶"
+
+msgid "hello"
+msgstr "你好"
+
+msgid "congratulation_join"
+msgstr "祝賀成為%s的成員。 您的驗證碼是："
+
+msgid "thank_you"
+msgstr "謝謝"
+
+msgid "email_subject_forgot_password"
+msgstr "忘記密碼"
+
+msgid "forgot_password_content"
+msgstr "我們已將此電子郵箱發送給您，以回复您在%s上重置密碼的請求。 請將<b>%s</b>的驗證碼插入應用程序以更改密碼"
+
+msgid "forgot_password_content_admin"
+msgstr "我們已將此電子郵箱發送給您，以回复您在%s上重置密碼的請求。 請點擊以下鏈接<a href=\"%s\">%s</a>更改密碼"
+
+msgid "cancel"
+msgstr "取消"
+
+msgid "remind_edit_birthday"
+msgstr "每个會員的生日日期只可以修改一次， 你確定嗎？"
+
+msgid "title_remind_edit_birthday"
+msgstr "換會員的生日日期"
+
+msgid "member_birthday_certification"
+msgstr "會員出生年月証件"
+
+msgid "no_image"
+msgstr "没有图片"
+
+msgid "data_no_change_cant_save"
+msgstr "資料没有更改， 不可以儲存"
+
+msgid "invalid_data_or_birthday_had_changed"
+msgstr "無效資料或生日日期已改"
+
+msgid "table"
+msgstr "表"
+
+msgid "value"
+msgstr "值"
+
+msgid "start_date"
+msgstr "開始日期"
+
+msgid "end_date"
+msgstr "結束日期"
+
+msgid "each_day"
+msgstr "每日"
+
+msgid "each_month"
+msgstr "每月"
+
+msgid "data_is_updated"
+msgstr "更新成功"
+
+msgid "approved"
+msgstr "已批准"
+
+msgid "rejected"
+msgstr "已拒絕"
+
+msgid "go_back_to_frontend"
+msgstr "返回主頁"
+
+msgid "zho_language_name"
+msgstr "中文(繁體)名稱"
+
+msgid "chi_language_name"
+msgstr "中文(簡體)名稱"
+
+msgid "eng_language_name"
+msgstr "英文名稱"
+
+msgid "zho_language_about_us"
+msgstr "中文(繁體)關於我們"
+
+msgid "chi_language_about_us"
+msgstr "中文(簡體)關於我們"
+
+msgid "eng_language_about_us"
+msgstr "英文關於我們"
+
+msgid "zho_first_name"
+msgstr "中文(繁體)名字"
+
+msgid "chi_first_name"
+msgstr "中文(簡體)名字"
+
+msgid "eng_first_name"
+msgstr "英文名字"
+
+msgid "zho_last_name"
+msgstr "中文(繁體)姓氏"
+
+msgid "chi_last_name"
+msgstr "中文(簡體)姓氏"
+
+msgid "eng_last_name"
+msgstr "英文姓氏"
+
+msgid "change_password_successfully"
+msgstr "成功修改密碼"
+
+msgid "zho_version"
+msgstr "中文(繁體)版"
+
+msgid "chi_version"
+msgstr "中文(簡體)版"
+
+msgid "eng_version"
+msgstr "英文版"
+
+msgid "required"
+msgstr "(*) 必需填寫"

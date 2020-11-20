@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.1.1\n"
+
+msgid "menu_about_us"
+msgstr "關於我們"
+
+msgid "over_shop_limit"
+msgstr "超出可創建店舖數目"
+
+msgid "missing_company_id"
+msgstr "未有提供公司ID"
+
+msgid "missing_brand_id"
+msgstr "未有提供品牌編號"
+
+msgid "missing_shop_id"
+msgstr "未有提供店舖編號"
+
+msgid "company"
+msgstr "公司"
+
+msgid "brand"
+msgstr "品牌"
+
+msgid "brand_image"
+msgstr "品牌：圖片"
+
+msgid "brand_language"
+msgstr "品牌：語言"
+
+msgid "company_language"
+msgstr "公司：語言"
+
+msgid "shop_image"
+msgstr "店舖：圖片"
+
+msgid "shop"
+msgstr "店舖"
+
+msgid "shop_language"
+msgstr "店舖：語言"
+
+msgid "shop_currency"
+msgstr "店舖可用貨幣"
+
+msgid "shop_payment"
+msgstr "店舖付款方法"
+
+msgid "shop_service"
+msgstr "店舖描述"
+
+msgid "brand_images"
+msgstr "品牌：圖片一覧"
+
+msgid "brand_languages"
+msgstr "品牌：語言一覧"
+
+msgid "company_languages"
+msgstr "公司：語言一覧"
+
+msgid "brands"
+msgstr "品牌一覧"
+
+msgid "companies"
+msgstr "公司一覧"
+
+msgid "shop_images"
+msgstr "店舖：圖片一覧"
+
+msgid "shop_languages"
+msgstr "店舖：語言一覧"
+
+msgid "shops"
+msgstr "店舖一覧"
+
+msgid "shop_currencies"
+msgstr "店舖可用貨幣一覧"
+
+msgid "shop_payments"
+msgstr "店舖付款方法一覧"
+
+msgid "shop_services"
+msgstr "店舖描述一覧"
+
+msgid "add_brand_image"
+msgstr "新增品牌：圖片"
+
+msgid "add_brand_language"
+msgstr "新增品牌：語言"
+
+msgid "add_company_language"
+msgstr "新增公司：語言"
+
+msgid "add_brand"
+msgstr "新增品牌"
+
+msgid "add_company"
+msgstr "新增公司"
+
+msgid "add_shop_image"
+msgstr "新增店舖：圖片"
+
+msgid "add_shop_language"
+msgstr "新增店舖：語言"
+
+msgid "add_shop"
+msgstr "新增店舖"
+
+msgid "add_shop_currency"
+msgstr "新增店舖可用貨幣"
+
+msgid "add_shop_payment"
+msgstr "新增店舖付款方法"
+
+msgid "add_shop_service"
+msgstr "新增店舖描述"
+
+msgid "edit_brand_image"
+msgstr "編輯品牌：圖片"
+
+msgid "edit_brand_language"
+msgstr "編輯品牌：語言"
+
+msgid "edit_brand"
+msgstr "編輯品牌"
+
+msgid "edit_company"
+msgstr "編輯公司"
+
+msgid "edit_company_language"
+msgstr "編輯公司：語言"
+
+msgid "edit_shop_image"
+msgstr "編輯店舖：圖片"
+
+msgid "edit_shop_language"
+msgstr "編輯店舖：語言"
+
+msgid "edit_shop"
+msgstr "編輯店舖"
+
+msgid "edit_shop_currency"
+msgstr "編輯店舖可用貨幣"
+
+msgid "edit_shop_payment"
+msgstr "編輯店舖付款方法"
+
+msgid "edit_shop_service"
+msgstr "編輯店舖描述"
+
+msgid "width"
+msgstr "寬度"
+
+msgid "height"
+msgstr "高度"
+
+msgid "size"
+msgstr "大小"
+
+msgid "brand_id"
+msgstr "品牌編號"
+
+msgid "image_type_id"
+msgstr "圖片種類編號"
+
+msgid "content"
+msgstr "內容"
+
+msgid "payment_method"
+msgstr "付款方法"
+
+msgid "share_points"
+msgstr "分享積分"
+
+msgid "facebook"
+msgstr "Facebook"
+
+msgid "instagram"
+msgstr "Instagram"
+
+msgid "website"
+msgstr "網址"
+
+msgid "wechat"
+msgstr "微信"
+
+msgid "weibo"
+msgstr "微博"
+
+msgid "whatsapp"
+msgstr "WhatsApp"
+
+msgid "youtube"
+msgstr "YouTube"
+
+msgid "currency"
+msgstr "可用貨幣"
+
+msgid "shop_limit"
+msgstr "店舖數目限制"
+
+msgid "contact_person"
+msgstr "公司聯絡人"
+
+msgid "phone"
+msgstr "電話"
+
+msgid "contact_phone"
+msgstr "聯絡人電話"
+
+msgid "contact_email"
+msgstr "聯絡人電郵"
+
+msgid "contact_job_title"
+msgstr "聯絡人職銜"
+
+msgid "address"
+msgstr "地址"
+
+msgid "about"
+msgstr "關於"
+
+msgid "terms"
+msgstr "條款"
+
+msgid "privacy"
+msgstr "私隱政策"
+
+msgid "hotline"
+msgstr "電話熱線"
+
+msgid "service_time"
+msgstr "服務時間"
+
+msgid "company_id"
+msgstr "公司編號"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "shop_id"
+msgstr "店舖編號"
+
+msgid "opening"
+msgstr "營業時間"
+
+msgid "district"
+msgstr "地區"
+
+msgid "service"
+msgstr "店舖描述"
+
+msgid "code"
+msgstr "參考編號"
+
+msgid "price_min"
+msgstr "最低消費金額"
+
+msgid "price_max"
+msgstr "最高消費金額"
+
+msgid "geo_lat"
+msgstr "緯度(Latitude)"
+
+msgid "geo_lng"
+msgstr "經度(Longitude)"
+
+msgid "click_here_to_get_lat_lng"
+msgstr "請點擊任一鏈接獲取經緯度 :"
+
+msgid "slug_with_remark"
+msgstr "別稱(顯示於網址，須與圖片上載文件夾名稱一致)"
+
+msgid "parent_brand"
+msgstr "所屬品牌"
+
+msgid "no_parent_brand"
+msgstr "沒有所屬品牌"

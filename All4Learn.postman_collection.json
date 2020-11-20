@@ -1,0 +1,2369 @@
+{
+	"info": {
+		"_postman_id": "caf3f2c2-b586-40b2-9d40-1a62c1a2f7c2",
+		"name": "All4Learn",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TeacherCreateLesson",
+			"item": [
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/get_student_lesson.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20290596845EBC37A0DF704QUJMY6RCK18S9G5NAL7VF4PHX3D2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/get_student_lesson.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"get_student_lesson.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/student_visit_zoom_link.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "50003195EF991592FE01NCR1WY72IGHTXMDF34QPSZ6UEAJLKVB",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_lesson_id",
+									"value": "359",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/student_visit_zoom_link.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"student_visit_zoom_link.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/teacher_feedback_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "17666422665ECB767460A9CXCTG3OP5SB6KD7HQ4NWIMUR81LVE",
+									"type": "text"
+								},
+								{
+									"key": "student_assignment_submission_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "score",
+									"value": "SSSSS",
+									"type": "text"
+								},
+								{
+									"key": "feedback",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "remark",
+									"value": "very good!SSSS",
+									"type": "text"
+								},
+								{
+									"key": "number_file",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "file0",
+									"type": "file",
+									"src": "/Users/vilh/Downloads/陳俊權老師-1590131024833/s191002_jrgps_1_20200522_1590130971_0.pdf",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/teacher_feedback_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"teacher_feedback_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/teacher_create_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "14842495905EC75168D76AEI5OK2UVZHJ4FXGWC81MELPB3QRAT",
+									"type": "text"
+								},
+								{
+									"key": "number_file",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "file0",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "file1",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/teacher_create_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"teacher_create_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/teacher_update_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "8261059075EE3487AA19ECQCZ67SD1HUNAFVMOWP2R3BLY458JG",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_assignment_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "abc",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "xyz",
+									"type": "text"
+								},
+								{
+									"key": "class_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "subject_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "deadline",
+									"value": "2020/12/30",
+									"type": "text"
+								},
+								{
+									"key": "number_file",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "file0",
+									"type": "file",
+									"src": "/Users/vilh/Desktop/Screen Shot 2020-05-15 at 9.51.49 AM.png"
+								},
+								{
+									"key": "file1",
+									"type": "file",
+									"src": "/Users/vilh/Desktop/Screen Shot 2020-05-14 at 5.52.48 PM.png"
+								},
+								{
+									"key": "remove_file_id",
+									"value": "[46, 47, 48, 49, 50]",
+									"description": "remove id image (if any)",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/teacher_update_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"teacher_update_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/teacher_delete_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "9571024525EE339088D8EAG8F5UDJLQ2TP9W7CEHMZ6AIRNV3BK",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_assignment_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/teacher_delete_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"teacher_delete_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/get_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "9646288645EE32D7E3DBA4GZ1MTUBOYRNF3WJC7LV52DH4IEKAS",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_assignment_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/get_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"get_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/get_lesson.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/get_lesson.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"get_lesson.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/add_lesson.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "subject_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "lesson_title",
+									"value": "english",
+									"type": "text"
+								},
+								{
+									"key": "lesson_description",
+									"value": "this english lesson is description ...",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "list_group",
+									"value": "[\"6\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_teacher",
+									"value": "[\"480\", \"481\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_student",
+									"value": "[\"616\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_attend_teacher",
+									"value": "[\"1\"]",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								},
+								{
+									"key": "allow_playback",
+									"value": "1",
+									"description": "1: yes, 0: no",
+									"type": "text"
+								},
+								{
+									"key": "start_time",
+									"value": "2020-08-26 08:15",
+									"type": "text"
+								},
+								{
+									"key": "duration_hours",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "duration_minutes",
+									"value": "15",
+									"type": "text"
+								},
+								{
+									"key": "cycle",
+									"value": "0",
+									"description": "// 0: daily, 1: weekly; 10: no repeat",
+									"type": "text"
+								},
+								{
+									"key": "frequency",
+									"value": "5",
+									"description": "//so lan lap lai: 1,2, 3",
+									"type": "text"
+								},
+								{
+									"key": "display_card_subject",
+									"value": "1",
+									"description": "1: display subject, 0: display title",
+									"type": "text"
+								},
+								{
+									"key": "is_allow_overlap",
+									"value": "0",
+									"description": "1: true => by pass dont check overlap, 0: false; check overlap message",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/add_lesson.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"add_lesson.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/update_lesson.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "subject_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "lesson_title",
+									"value": "english",
+									"type": "text"
+								},
+								{
+									"key": "lesson_description",
+									"value": "this english lesson is description ...",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "list_group",
+									"value": "[\"6\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_teacher",
+									"value": "[\"1\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_attend_teacher",
+									"value": "[\"1\"]",
+									"type": "text"
+								},
+								{
+									"key": "list_student",
+									"value": "[\"1\"]",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								},
+								{
+									"key": "allow_playback",
+									"value": "1",
+									"description": "1: yes, 0: no",
+									"type": "text"
+								},
+								{
+									"key": "start_time",
+									"value": "2020-08-11 20:10",
+									"type": "text"
+								},
+								{
+									"key": "duration_hours",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "duration_minutes",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "display_card_subject",
+									"value": "1",
+									"description": "1: display subject, 0: display title",
+									"type": "text"
+								},
+								{
+									"key": "is_allow_overlap",
+									"value": "0",
+									"description": "1: true => by pass dont check overlap, 0: false; check overlap message",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_lesson_id",
+									"value": "731",
+									"type": "text"
+								},
+								{
+									"key": "lesson_description",
+									"value": "alibabbbabbbbbabaa",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/update_lesson.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"update_lesson.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/student_submit_assignment.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "teacher_create_assignment_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "number_file",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "file0",
+									"type": "file",
+									"src": "/Users/vilh/Desktop/image/61_3_4x3"
+								},
+								{
+									"key": "token",
+									"value": "8182618175ECB68B2E767C3ZTHSL7RNU69PC8DIQXVMA24F1GYW",
+									"type": "text"
+								},
+								{
+									"key": "resubmit",
+									"value": "1",
+									"description": "1: resubmit, 0: new submit",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/student_submit_assignment.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"student_submit_assignment.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/teacher_create_lessons/get_teacher_lesson.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "3345899895EBBE14E74F05LIE9JRYOZXKQHG8CBMFU2S3NT54V1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/teacher_create_lessons/get_teacher_lesson.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"teacher_create_lessons",
+								"get_teacher_lesson.json"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "School",
+			"item": [
+				{
+					"name": "{{host}}/api/school/schools/get_school_by_id.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "20",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools/get_school_by_id.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools",
+								"get_school_by_id.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/schools_groups/get_item.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools_groups/get_item.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools_groups",
+								"get_item.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/schools_groups/add_item.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "2022-2023",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "P32A",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools_groups/add_item.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools_groups",
+								"add_item.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/schools_groups/edit_item.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "2022-2023",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "這是什麼",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								},
+								{
+									"key": "group_id",
+									"value": "8",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools_groups/edit_item.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools_groups",
+								"edit_item.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/schools/create_school.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "contact_person",
+									"value": "DHSG",
+									"description": "Mr + name => Ex: Mr Vi",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "852343434",
+									"description": "Area code + number => Ex: 85265986756",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "2605673195ED4BA416AE49D7OT3RA4FVPUZNEQ82XKGB1C5H9JY",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "290 an duong vuong",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "daihocsaigon@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "dai hoc sai gon",
+									"description": "school name",
+									"type": "text"
+								},
+								{
+									"key": "number_file",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "file0",
+									"type": "file",
+									"src": "/Users/vilh/Downloads/lab-master-x.sql"
+								},
+								{
+									"key": "file1",
+									"type": "file",
+									"src": "/Users/vilh/Downloads/___MasterX all docs (Celia xd)/Payme info/PayMe_API_Version_0.12.postman_collection (init).json"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools/create_school.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools",
+								"create_school.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/schools/edit_school.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "20",
+									"description": "school id",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "+852 343 434",
+									"description": "Area code + number => Ex: 85265986756",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "9156317615ED08EDD4F27DLEOU7Y6C3RMW1FNSHVBKDZA5ITP4Q",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "290 an duong vuong",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "vi.lh@vtl-vtl.com",
+									"type": "text"
+								},
+								{
+									"key": "about_us",
+									"value": "Welcome to Bees Creek School\nBees Creek School prides itself on the quality of its educational programmes, the professionalism of its staff, the enthusiasm of its students and the high level of support provided by parents and community members. We are an open school and we actively seek participation and involvement from the whole school community.\n\nThe school commenced on the 29th January, 1997 with 6 primary classes and a morning preschool group, student numbers totaled 120 and was officially opened on the 11th June, 1997. We are one of six primary schools that serve the rural area and are continually growing in size. We currently have 16 classes and two preschool groups with enrolments around 370. Our priority enrolment area is the Virginia and Bees Creek areas as stated in our Managed Enrolment Policy.\n\nIn 2004 the school undertook a comprehensive community survey seeking to clarify the effectiveness of our service delivery and identify any changes that needed to be made. This was undertaken within the parameters of:\n\nCurriculum, Teaching and Learning\nEnvironment and Ethos\nPartnerships and Services\nIn 2015 we undertook a School Perception Survey to seek feedback from our community on what is working well and what needs to be addressed so that we can continue to ensure that we are delivering not just a good education but an education for good.",
+									"type": "text"
+								},
+								{
+									"key": "logo0",
+									"type": "file",
+									"src": "/Users/vilh/Desktop/Screen Shot 2020-05-28 at 2.29.39 PM.png"
+								},
+								{
+									"key": "banner0",
+									"type": "file",
+									"src": "/Users/vilh/Desktop/Screen Shot 2020-05-28 at 2.12.34 PM.png"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/school/schools/edit_school.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"schools",
+								"edit_school.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/school_classes/get_list_class_by_school_id.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"description": "1, 10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/school_classes/get_list_class_by_school_id.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"school_classes",
+								"get_list_class_by_school_id.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/school/school_subjects/get_list_subject_by_school_id.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"description": "1, 10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/school/school_subjects/get_list_subject_by_school_id.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"school",
+								"school_subjects",
+								"get_list_subject_by_school_id.json"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Member",
+			"item": [
+				{
+					"name": "{{host}}/api/member/member_login_methods/login.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "vistudent",
+									"description": "chanchunkuen/s151055/vilh/yckelvin/s191001",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"description": "Goo@9154/6207/9988/9988/3307",
+									"type": "text"
+								},
+								{
+									"key": "school_code",
+									"value": "rickylamhk",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "username_link",
+									"value": "vi.lh@vtl-vtl.com",
+									"description": "if got this username_link and school_id_link => add one row MemberLoginMethod (binding acc)",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "school_id_link",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "role_id_link",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/login.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"login.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/forgot_password.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "vi.lh@vtl-vtl.com",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/forgot_password.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"forgot_password.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/use_link_reset_password.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "key",
+									"value": "29B5D0A5CA08389317E8C6BA6D2E8AAA",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "894d7048f780be5a0af0c4eb061a365e8b87edadb7ad2625476f7c5d25b8f102",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/use_link_reset_password.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"use_link_reset_password.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/login_social_method.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "social_uuid",
+									"value": "200000001234123123",
+									"description": "12121212121221",
+									"type": "text"
+								},
+								{
+									"key": "social_token",
+									"value": "unknow_token",
+									"description": "xahfheihfklkfhihfksfhkshfs",
+									"type": "text"
+								},
+								{
+									"key": "social_type",
+									"value": "1",
+									"description": "1: FB, 2: Google",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "nguyen van a",
+									"description": "nguyen van a",
+									"type": "text"
+								},
+								{
+									"key": "avatar_link",
+									"value": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3440976262587633&height=200&width=200&ext=1596793500&hash=AeQ7s0sneIFSdq9E",
+									"type": "text"
+								},
+								{
+									"key": "username_link",
+									"value": "vi.lh222@vtl-vtl.com",
+									"description": "if got this username_link and school_id_link => add one row MemberLoginMethod (binding acc)",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "school_id_link",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "role_id_link",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/login_social_method.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"login_social_method.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/reset_password.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "7326449285F0FDA41BBB64LDPSW9B7MKQRH31VGXOU64YEIJACN",
+									"type": "text"
+								},
+								{
+									"key": "old_password",
+									"value": "123456",
+									"description": "Goo@9154/6207/9988/9988/3307",
+									"type": "text"
+								},
+								{
+									"key": "new_password",
+									"value": "12345678",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/reset_password.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"reset_password.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/logout.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "8583111255EC6464783CA4CYS7ZFXHLJ9IBUW3KTV25R14ADP8E",
+									"description": "chanchunkuen/s151055/vilh/yckelvin/s191001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/logout.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"logout.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/register.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "test1112",
+									"description": "chanchunkuen/s151055",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"description": "Goo@9154/6207",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "test1112@test.com",
+									"type": "text"
+								},
+								{
+									"key": "first_name",
+									"value": "vi",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "ly",
+									"type": "text"
+								},
+								{
+									"key": "invitation_code",
+									"value": "jrgps",
+									"description": "optional",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "123123123",
+									"type": "text"
+								},
+								{
+									"key": "role_id_link",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "username_link",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "school_id_link",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/register.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"register.json"
+							]
+						},
+						"description": "- role_id_link: binding account info\n- username_link: binding account info\n- school_id_link: binding account info"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/get_profile.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "11119167765F05AC91702AFQTXI7NJOW9152LFHAB368EKMUR4D",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/get_profile.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"get_profile.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/get_list_teacher.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "school_code",
+									"value": "jrgps",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/get_list_teacher.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"get_list_teacher.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/member_login_methods/confirm_register.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "hantran120507",
+									"description": "chanchunkuen/s151055",
+									"type": "text"
+								},
+								{
+									"key": "register_code",
+									"value": "2016",
+									"description": "Goo@9154/6207",
+									"type": "text"
+								},
+								{
+									"key": "school_code",
+									"value": "jrgps",
+									"type": "text"
+								},
+								{
+									"key": "confirm_register",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/member_login_methods/confirm_register.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"member_login_methods",
+								"confirm_register.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members/update_profile.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "5513473815F17EC8E843B7LES58Q4B1P2NHKGVT9YACIJ63R7ZF",
+									"type": "text"
+								},
+								{
+									"key": "nick_name",
+									"value": "yeah",
+									"description": "OPTINAL",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "yu.CRy216@gmail.com",
+									"description": "OPTINAL",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members/update_profile.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members",
+								"update_profile.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members/use_link_confirm_email_address.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "key",
+									"value": "1E540195FC4964A5F96E66E9A27FA1E2",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members/use_link_confirm_email_address.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members",
+								"use_link_confirm_email_address.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members/import_member.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "2",
+									"description": "1: teacher, 2: student",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Applications/XAMPP/xamppfiles/htdocs/all4learn/webroot/uploads/import/All4LeARN_student_import.xlsx"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members/import_member.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members",
+								"import_member.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members/create_member.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "[\"1\", \"3\"]",
+									"description": "1: teacher, 2: student",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "vivi2",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "vivi2@gmai.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "09064403682",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "VI LY",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members/create_member.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members",
+								"create_member.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members/resend_email.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "vilh",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members/resend_email.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members",
+								"resend_email.json"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Payment",
+			"item": [
+				{
+					"name": "{{host}}/api/payment/pay_dollars/add_pay_dollar.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "1",
+									"description": "id school manage which token user manage",
+									"type": "text"
+								},
+								{
+									"key": "amount",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20991448295EDA028169706H5GZVTOBWCIMU3D7XQYKNFP146SA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/payment/pay_dollars/add_pay_dollar.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"payment",
+								"pay_dollars",
+								"add_pay_dollar.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/payment/pay_dollars/get_payment_receipt_info.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "18181446625EDA26CC9696F3S8GNY72MLZEDPOHKAW4F9QRJIBX",
+									"type": "text"
+								},
+								{
+									"key": "Ref",
+									"value": "63180488420200605184020",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/payment/pay_dollars/get_payment_receipt_info.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"payment",
+								"pay_dollars",
+								"get_payment_receipt_info.json"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/SimpleClientPost/paymentDataFeed.php",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "viteacher01",
+									"description": "chanchunkuen/s151055/vilh/yckelvin/s191001",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"description": "Goo@9154/6207/9988/9988/3307",
+									"type": "text"
+								},
+								{
+									"key": "school_code",
+									"value": "natural",
+									"type": "text"
+								},
+								{
+									"key": "username_link",
+									"value": "vi.lh@vtl-vtl.com",
+									"description": "if got this username_link and school_id_link => add one row MemberLoginMethod (binding acc)",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "school_id_link",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "role_id_link",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/SimpleClientPost/paymentDataFeed.php",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"SimpleClientPost",
+								"paymentDataFeed.php"
+							]
+						},
+						"description": "This is login api\n\nif pass school_code => will check school code"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MembersCredit",
+			"item": [
+				{
+					"name": "{{host}}/api/member/members_credits/get_latest_transaction_record.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "eng",
+									"description": "eng/zho",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "16993784835F16B7EF28E5BT3PA4L1NUSXQWJI2VKHDOGEMF9B5",
+									"type": "text"
+								},
+								{
+									"key": "school_code",
+									"value": "vistudent",
+									"type": "text"
+								},
+								{
+									"key": "limit",
+									"value": "2",
+									"description": "limit 5 latest rows",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members_credits/get_latest_transaction_record.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members_credits",
+								"get_latest_transaction_record.json"
+							]
+						},
+						"description": "This API will show latest `limit` transaction from members credits\n- When school admin topup/student join a live room => will add one row to members credits with credits types"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "MembersGroup",
+			"item": [
+				{
+					"name": "{{host}}/api/member/members_groups/get_member.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"type": "text"
+								},
+								{
+									"key": "group_id",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members_groups/get_member.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members_groups",
+								"get_member.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members_groups/add_member.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"type": "text"
+								},
+								{
+									"key": "group_id",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "role_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "member_id",
+									"value": "616",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members_groups/add_member.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members_groups",
+								"add_member.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "{{host}}/api/member/members_groups/remove_member.json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "language",
+									"value": "zho",
+									"type": "text"
+								},
+								{
+									"key": "group_id",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "school_id",
+									"value": "22",
+									"type": "text"
+								},
+								{
+									"key": "role_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "member_id",
+									"value": "616",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "20759996205F2385F036C4CTPFM8Z3JH51OY2S7QXVC4GLAD6RE",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/member/members_groups/remove_member.json",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"member",
+								"members_groups",
+								"remove_member.json"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

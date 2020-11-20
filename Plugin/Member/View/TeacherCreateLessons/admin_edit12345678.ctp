@@ -1,0 +1,193 @@
+<div class="teacherCreateLessons form">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1><?php echo __('Admin Edit Teacher Create Lesson'); ?></h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		
+		<div class="col-md-8">
+			<?php echo $this->Form->create('TeacherCreateLesson', array('role' => 'form')); ?>
+
+				<div class="form-group">
+					<?php echo $this->Form->input('id', array('class' => 'form-control', 'placeholder' => 'Id'));?>
+				</div>
+
+				<div class="form-group">
+					<?php 
+						echo $this->Form->input('lesson_title', array(
+							'class' => 'form-control',
+							'label' => false,
+							'required' 	=> 'required',
+							'label' => '<font class="red">*</font>課堂名稱',
+						));
+					?>
+				</div>
+
+				<div class="form-group">
+					<?php echo $this->Form->input('meeting', 
+						array('class' => 'form-control', 
+							'label'		=> __d('member', 'meeting'),
+							'placeholder' =>  __d('member', 'meeting')));
+					?>
+				</div>
+
+				<div class="form-group">
+					<?php echo $this->Form->input('recording_video', 
+						array('class' => 'form-control', 
+							'label'		=> __d('member', 'recording_video'),
+							'placeholder' =>  __d('member', 'recording_video')));
+					?>
+				</div>
+
+				<div class="form-group">
+					<?php 
+						echo $this->element('datetime_picker',array(
+							'field_name' => 'TeacherCreateLesson.start_time', 
+							'required' 	=> 'required',
+							'label' 	=> __d('member', 'start_time'), 
+							'value' 	=> isset($this->request->data['TeacherCreateLesson']) ? $this->request->data['TeacherCreateLesson']['start_time'] : array(),
+							'id' 		=> 'start_time',
+						));
+					?>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<?php
+								echo $this->Form->input('duration_hour_id', array(
+									'class' => 'form-control',
+									'empty' => __("please_select"),
+									'value' => isset($this->request->data['TeacherCreateLesson']) ? $this->request->data['TeacherCreateLesson']['duration_hours'] : array(),
+									'label' => '<font class="red">*</font>持續時間 (小時)',
+									'required' 	=> 'required',
+									'placeholder' => '小時',
+								));
+							?>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<?php 
+								echo $this->Form->input('duration_minute_id', array(
+									'class' => 'form-control',
+									'empty' => __("please_select"),
+									'value' => isset($this->request->data['TeacherCreateLesson']) ? $this->request->data['TeacherCreateLesson']['duration_minutes'] : array(),
+									'label' => '<font class="red">*</font>持續時間 (分鐘)',
+									'required' 	=> 'required',
+									'placeholder' => '分鐘',
+								));
+							?>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<?php 
+					
+						echo $this->Form->input('teacher_id', array(
+							'empty' => __("please_select"),
+							'id' => 'teacher_id',
+							'class' => 'form-control',
+							'label' => '<font class="red">*</font>主教老師',
+							'required' => 'required',
+						));
+
+					?>
+				</div>
+
+				<div class="row margin-top-15">
+	
+					<div class="col-md-12">
+						<label> <?= '班別' ?> </label>
+						<div data-toggle="buttons" style="padding: 0px 0 20px;">
+							<?php foreach ($schoolClasses as $key => $value): ?>
+								<div class="col-md-3 col-sm-4 col-xs-6">
+									<?php if(isset($this->request->data['TeacherCreateLesson']["list_class"]) && $this->request->data['TeacherCreateLesson']["list_class"] != '' && $this->request->data['TeacherCreateLesson']["list_class"] != NULL  && in_array($key, json_decode($this->request->data['TeacherCreateLesson']["list_class"], true))){ ?>
+										<input type="checkbox" name="list_class[]" value="<?php echo $key; ?>" checked="checked"> 
+									<?php } else { ?>
+										<input type="checkbox" name="list_class[]" value="<?php echo $key; ?>"> 
+									<?php } ?>
+									<span class="glyphicon"></span>
+									<?php echo $value; ?>
+								</div>
+							<?php endforeach ?>				
+						</div>
+					</div>
+				</div>
+
+				<div class="row margin-top-15">
+					<div class="col-md-12">
+						<label> <?= '助教老師' ?> </label>
+						<div data-toggle="buttons" style="padding: 0px 0 20px;">
+							<?php foreach ($teachers as $key => $value): ?>
+
+								<?php 
+									// if (isset($current_user) && ($key == $current_user['MemberLoginMethod']['member_id'])) { continue; }  
+								?>
+
+								<div class="col-md-3 col-sm-4 col-xs-6">
+									<?php if(isset($this->request->data['TeacherCreateLesson']["list_teacher"]) && $this->request->data['TeacherCreateLesson']["list_teacher"] != '' && $this->request->data['TeacherCreateLesson']["list_teacher"] != NULL  && in_array($key, json_decode($this->request->data['TeacherCreateLesson']["list_teacher"], true))){ ?>
+										<input type="checkbox" name="list_teacher[]" value="<?php echo $key; ?>" checked="checked"> 
+									<?php } else { ?>
+										<input type="checkbox" name="list_teacher[]" value="<?php echo $key; ?>"> 
+									<?php } ?>
+									<span class="glyphicon"></span>
+									<?php echo $value; ?>
+								</div>
+							<?php endforeach ?>				
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-xs-8 col-md-8">
+						<div class="form-group">
+							<?php 
+								// echo $this->Form->input('period_id', array(
+								// 	'class' => 'form-control',
+								// 	'empty' => __("please_select"),
+								// 	'required' 	=> 'required',
+								// 	'value' => isset($this->request->data['TeacherCreateLesson']) ? $this->request->data['TeacherCreateLesson']['cycle'] : array(),
+								// 	'readonly' => 'readonly',
+								// 	'label' => '<font class="red">*</font>週期性',
+								// 	'placeholder' => '週期性',
+								// ));
+							?>
+						</div>
+					</div>
+
+					<div class="col-xs-4 col-md-4">
+						<div class="form-group">
+							<?php 
+								// echo $this->Form->input('frequence_id', array(
+								// 	'class' => 'form-control',
+								// 	'empty' => __("please_select"),
+								// 	'required' 	=> 'required',
+								// 	'readonly' => 'readonly',
+								// 	'value' => isset($this->request->data['TeacherCreateLesson']) ? $this->request->data['TeacherCreateLesson']['frequency'] : array(),
+									
+								// 	'label' => '<font class="red">*</font>總共次數',
+								// 	'placeholder' => '總共次數',
+								// ));
+							?>
+						</div>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<?php echo $this->Form->submit(__('submit'), array('class' => 'btn btn-default')); ?>
+				</div>
+
+			<?php echo $this->Form->end() ?>
+
+		</div><!-- end col md 12 -->
+	</div><!-- end row -->
+</div>

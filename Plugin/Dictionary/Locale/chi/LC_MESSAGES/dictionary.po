@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.3\n"
+
+msgid "missing_slug"
+msgstr "未有提供资料类別"
+
+msgid "currencies"
+msgstr "可用货币一览"
+
+msgid "currency_languages"
+msgstr "可用货币：语言一览"
+
+msgid "image_type_languages"
+msgstr "圖片种类：语言一览"
+
+msgid "languages"
+msgstr "语言一览"
+
+msgid "image_types"
+msgstr "圖片种类一览"
+
+msgid "vocabularies"
+msgstr "词彙一览"
+
+msgid "vocabulary_languages"
+msgstr "词彙：语言一览"
+
+msgid "currency_language"
+msgstr "可用货币：语言"
+
+msgid "image_type_language"
+msgstr "圖片种类：语言"
+
+msgid "currency"
+msgstr "可用货币"
+
+msgid "language"
+msgstr "语言"
+
+msgid "vocabulary"
+msgstr "词彙"
+
+msgid "vocabulary_language"
+msgstr "词彙：语言"
+
+msgid "add_currency"
+msgstr "新增可用货币"
+
+msgid "add_currency_language"
+msgstr "新增可用货币：语言"
+
+msgid "add_image_type_language"
+msgstr "新增圖片种类：语言"
+
+msgid "add_image_type"
+msgstr "新增圖片种类"
+
+msgid "add_language"
+msgstr "新增语言"
+
+msgid "add_vocabulary"
+msgstr "新增词彙"
+
+msgid "add_vocabulary_language"
+msgstr "新增词彙：语言"
+
+msgid "edit_currency_language"
+msgstr "编輯可用货币：语言"
+
+msgid "edit_image_type_language"
+msgstr "编輯圖片种类：语言"
+
+msgid "edit_language"
+msgstr "编輯语言"
+
+msgid "edit_image_type"
+msgstr "编輯圖片种类"
+
+msgid "edit_currency"
+msgstr "编輯可用货币"
+
+msgid "edit_vocabulary"
+msgstr "编輯词彙"
+
+msgid "edit_vocabulary_language"
+msgstr "编輯词彙：语言"
+
+msgid "id"
+msgstr "编号"
+
+msgid "currency_id"
+msgstr "可用货币编号"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "description"
+msgstr "描述"
+
+msgid "slug"
+msgstr "类別"
+
+msgid "alias"
+msgstr "別号"
+
+msgid "rate_to_usd"
+msgstr "货币比率"
+
+msgid "related_coupons"
+msgstr "相关优惠券"
+
+msgid "add_coupon"
+msgstr "新增优惠券"
+
+msgid "related_currency_languages"
+msgstr "相关可用货币：语言"
+
+msgid "image_type_id"
+msgstr "圖片种类编号"
+
+msgid "image_type"
+msgstr "圖片种类"
+
+msgid "parent_id"
+msgstr "上層编号"
+
+msgid "parent_vocabulary"
+msgstr "上層词彙"
+
+msgid "zip_code"
+msgstr "區号"
+
+msgid "vocabulary_id"
+msgstr "词彙编号"
+
+msgid "payment_method"
+msgstr "付款方式"
+
+msgid "projects_should_use"
+msgstr "以下项目適用"
+
+msgid "age_group"
+msgstr "年龄阶层"
+
+msgid "add_age_group"
+msgstr "添加年龄组"
+
+msgid "edit_age_group"
+msgstr "編輯年龄组"
+
+msgid "age_from"
+msgstr "年龄来自"
+
+msgid "age_to"
+msgstr "年龄到"

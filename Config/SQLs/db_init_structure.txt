@@ -1,0 +1,53 @@
+TABLE `cms_banners`
+	id 							int, Primary, Auto Increment
+	category_id 				int
+	sub_headline 				varchar(191), DEFAULT NULL
+	content 					varchar(191), DEFAULT NULL
+	btn_text 					varchar(191), DEFAULT NULL
+	btn_link 					varchar(191), DEFAULT NULL
+	btn_file 					varchar(191), DEFAULT NULL
+	backgraound 				varchar(191)
+	enabled 					tinyint(1)
+	updated 					datetime
+	updated_by 					int, DEFAULT NULL
+	created 					datetime
+	created_by 					int, DEFAULT NULL
+
+
+TABLE `cms_tours`
+	id 							int, Primary, Auto Increment
+	name 						varchar(191)
+	start_date 					datetime
+	end_date 					datetime
+	length 						int
+	enabled 					tinyint(1)
+	updated 					datetime
+	updated_by 					int, DEFAULT NULL
+	created 					datetime
+	created_by 					int, DEFAULT NULL
+
+
+TABLE `cms_aboards`
+	id 							int, Primary, Auto Increment
+	name 						varchar(191)
+	age 						varchar(191)
+	level 						varchar(191)
+	length 						int
+	enabled 					tinyint(1)
+	updated 					datetime
+	updated_by 					int, DEFAULT NULL
+	created 					datetime
+	created_by 					int, DEFAULT NULL
+
+
+TABLE `cms_competitions`
+	id 							int, Primary, Auto Increment
+	name 						varchar(191)
+	date 						datetime
+	open_to 					varchar(191)
+	entry_deadline 				varchar(191)
+	enabled 					tinyint(1)
+	updated 					datetime
+	updated_by 					int, DEFAULT NULL
+	created 					datetime
+	created_by 					int, DEFAULT NULL

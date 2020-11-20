@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.2.3\n"
+
+msgid "missing_slug"
+msgstr "Missing slug"
+
+msgid "currencies"
+msgstr "Currencies"
+
+msgid "currency_languages"
+msgstr "Currency languages"
+
+msgid "image_type_languages"
+msgstr "Image type languages"
+
+msgid "languages"
+msgstr "Languages"
+
+msgid "image_types"
+msgstr "Image types"
+
+msgid "vocabularies"
+msgstr "Vocabularies"
+
+msgid "vocabulary_languages"
+msgstr "Vocabulary languages"
+
+msgid "currency_language"
+msgstr "Currency language"
+
+msgid "image_type_language"
+msgstr "Image type language"
+
+msgid "currency"
+msgstr "Currency"
+
+msgid "language"
+msgstr "Language"
+
+msgid "vocabulary"
+msgstr "Vocabulary"
+
+msgid "vocabulary_language"
+msgstr "Vocabulary language"
+
+msgid "add_currency"
+msgstr "Add currency"
+
+msgid "add_currency_language"
+msgstr "Add currency language"
+
+msgid "add_image_type_language"
+msgstr "Add image type language"
+
+msgid "add_image_type"
+msgstr "Add image type"
+
+msgid "add_language"
+msgstr "Add language"
+
+msgid "add_vocabulary"
+msgstr "Add vocabulary"
+
+msgid "add_vocabulary_language"
+msgstr "Add vocabulary language"
+
+msgid "edit_currency_language"
+msgstr "Edit currency language"
+
+msgid "edit_image_type_language"
+msgstr "Edit image type language"
+
+msgid "edit_language"
+msgstr "Edit language"
+
+msgid "edit_image_type"
+msgstr "Edit image type"
+
+msgid "edit_currency"
+msgstr "Edit currency"
+
+msgid "edit_vocabulary"
+msgstr "Edit vocabulary"
+
+msgid "edit_vocabulary_language"
+msgstr "Edit vocabulary language"
+
+msgid "id"
+msgstr "Id"
+
+msgid "currency_id"
+msgstr "Currency id"
+
+msgid "name"
+msgstr "Name"
+
+msgid "description"
+msgstr "Description"
+
+msgid "slug"
+msgstr "Slug"
+
+msgid "alias"
+msgstr "Alias"
+
+msgid "rate_to_usd"
+msgstr "Rate to usd"
+
+msgid "related_coupons"
+msgstr "Related coupons"
+
+msgid "add_coupon"
+msgstr "Add coupon"
+
+msgid "related_currency_languages"
+msgstr "Related currency languages"
+
+msgid "image_type_id"
+msgstr "Image type id"
+
+msgid "image_type"
+msgstr "Image type"
+
+msgid "parent_id"
+msgstr "Parent id"
+
+msgid "parent_vocabulary"
+msgstr "Parent vocabulary"
+
+msgid "zip_code"
+msgstr "Zip code"
+
+msgid "vocabulary_id"
+msgstr "Vocabulary id"
+
+msgid "payment_method"
+msgstr "Payment method"
+
+msgid "projects_should_use"
+msgstr "Projects below need to use"
+
+msgid "age_group"
+msgstr "Age Group"
+
+msgid "add_age_group"
+msgstr "Add Age Group"
+
+msgid "edit_age_group"
+msgstr "Edit Age Group"
+
+msgid "age_from"
+msgstr "Age from"
+
+msgid "age_to"
+msgstr "Age to"

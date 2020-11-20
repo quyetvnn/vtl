@@ -1,0 +1,917 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_HK\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "home"
+msgstr "Home"
+
+msgid "administrator"
+msgstr "Administrator"
+
+msgid "administrators"
+msgstr "Admimistrators"
+
+msgid "permissions"
+msgstr "Permissions"
+
+msgid "roles"
+msgstr "Roles"
+
+msgid "company"
+msgstr "Company"
+
+msgid "companies"
+msgstr "Companies"
+
+msgid "brands"
+msgstr "Brands"
+
+msgid "shops"
+msgstr "Shops"
+
+msgid "coupon"
+msgstr "Coupon"
+
+msgid "coupons"
+msgstr "Coupons"
+
+msgid "fact"
+msgstr "Fact"
+
+msgid "facts"
+msgstr "Facts"
+
+msgid "menu"
+msgstr "Menu"
+
+msgid "menus"
+msgstr "Menus"
+
+msgid "searches"
+msgstr "Searches"
+
+msgid "member"
+msgstr "Member"
+
+msgid "members"
+msgstr "Members"
+
+msgid "devices"
+msgstr "Devices"
+
+msgid "member_verifications"
+msgstr "Member Verifications"
+
+msgid "member_coupons"
+msgstr "Member Coupon"
+
+msgid "member_points"
+msgstr "Member Points"
+
+msgid "member_pushes"
+msgstr "Member Pushes"
+
+msgid "point"
+msgstr "Point"
+
+msgid "expiration_schemas"
+msgstr "Expiration schemas"
+
+msgid "point_schemes"
+msgstr "Point schemes"
+
+msgid "promotion"
+msgstr "Promotion"
+
+msgid "promotions"
+msgstr "Promotions"
+
+msgid "add_promotions"
+msgstr "Add new promotions"
+
+msgid "push"
+msgstr "Push"
+
+msgid "pushes"
+msgstr "Pushes"
+
+msgid "push_rules"
+msgstr "Push rules"
+
+msgid "add_new_push"
+msgstr "Add new push"
+
+msgid "add_new_push_rule"
+msgstr "Add new push rule"
+
+msgid "push_method"
+msgstr "Push method"
+
+msgid "service"
+msgstr "Service"
+
+msgid "services"
+msgstr "Services"
+
+msgid "staff"
+msgstr "Staff"
+
+msgid "staffs"
+msgstr "Staffs"
+
+msgid "staffs_shops"
+msgstr "Staffs in shop"
+
+msgid "dictionary"
+msgstr "Dictionary"
+
+msgid "vocabularies"
+msgstr "Vocabularies"
+
+msgid "image_types"
+msgstr "Image types"
+
+msgid "languages"
+msgstr "Languages"
+
+msgid "currencies"
+msgstr "Currencies"
+
+msgid "please_select"
+msgstr "Please select"
+
+msgid "Please select"
+msgstr "Please select"
+
+msgid "please_input"
+msgstr "Please Input"
+
+msgid "submit"
+msgstr "Submit"
+
+msgid "enabled"
+msgstr "Enabled"
+
+msgid "disabled"
+msgstr "Disabled"
+
+msgid "reset"
+msgstr "Reset"
+
+msgid "search"
+msgstr "Search"
+
+msgid "export"
+msgstr "Export CSV"
+
+msgid "export_excel"
+msgstr "Export Excel"
+
+msgid "data_is_saved"
+msgstr "Data is saved"
+
+msgid "many_data_is_saved"
+msgstr "My data is saved"
+
+msgid "data_is_not_saved"
+msgstr "Data is not saved"
+
+msgid "data_is_deleted"
+msgstr "Data is deleted"
+
+msgid "data_is_disabled"
+msgstr "Data is disabled"
+
+msgid "data_is_not_disabled"
+msgstr "Data is not disabled"
+
+msgid "data_is_not_deleted"
+msgstr "Data is not deleted"
+
+msgid "data_not_delete_was_used"
+msgstr "Data is not deleted because it was used"
+
+msgid "invalid_data"
+msgstr "Invalid data"
+
+msgid "old_password_same_as_new_password"
+msgstr "Old password cannot same as new password"
+
+msgid "new_password_not_match_renew_password"
+msgstr "New password not match with renew password"
+
+msgid "remember_me"
+msgstr "Remember me"
+
+msgid "login"
+msgstr "Login"
+
+msgid "forget_password"
+msgstr "Forgot password"
+
+msgid "powered_by"
+msgstr "powered by"
+
+msgid "operation"
+msgstr "Operation"
+
+msgid "created_by"
+msgstr "Created By"
+
+msgid "created"
+msgstr "Created On"
+
+msgid "updated_by"
+msgstr "Updated by"
+
+msgid "updated"
+msgstr "Updated On"
+
+msgid "are_you_sure_to_delete"
+msgstr "Are you sure to delete %s"
+
+msgid "are_you_sure_to_disable"
+msgstr "Are you sure to disable %s, You cannot enabled after disabled it."
+
+msgid "view"
+msgstr "View"
+
+msgid "upgrade"
+msgstr "Upgraded"
+
+msgid "add"
+msgstr "Add"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "add_image"
+msgstr "Add image"
+
+msgid "image_type"
+msgstr "Image type"
+
+msgid "image"
+msgstr "Image"
+
+msgid "retrieve_data_successfully"
+msgstr "Retrieve data is success"
+
+msgid "retrieve_data_not_successfully"
+msgstr "Retrieve data is not success"
+
+msgid "missing_parameter"
+msgstr "Missing parameter: "
+
+msgid "invalid_image_type"
+msgstr "Invalid image type"
+
+msgid "export_csv_fail"
+msgstr "Export csv is failed"
+
+msgid "no_record"
+msgstr "No record"
+
+msgid "is_default"
+msgstr "Is default"
+
+msgid "slug"
+msgstr "Slug"
+
+msgid "sorting"
+msgstr "Sorting"
+
+msgid "alias"
+msgstr "Alias"
+
+msgid "id"
+msgstr "Id"
+
+msgid "path"
+msgstr "Path"
+
+msgid "width"
+msgstr "Width"
+
+msgid "height"
+msgstr "Height"
+
+msgid "size"
+msgstr "Size"
+
+msgid "email"
+msgstr "Email"
+
+msgid "required_text_remark"
+msgstr "(<font color=\"red\">*</font>為必填項)"
+
+msgid "archived"
+msgstr "Archived"
+
+msgid "statement"
+msgstr "statement"
+
+msgid "remark"
+msgstr "Remark"
+
+msgid "please_login"
+msgstr "Please login"
+
+msgid "please_login_again"
+msgstr "Please login again"
+
+msgid "network_error"
+msgstr "Network error"
+
+msgid "jan"
+msgstr "January"
+
+msgid "feb"
+msgstr "Febuary"
+
+msgid "mar"
+msgstr "March"
+
+msgid "apr"
+msgstr "April"
+
+msgid "may"
+msgstr "May"
+
+msgid "jun"
+msgstr "June"
+
+msgid "jul"
+msgstr "July"
+
+msgid "aug"
+msgstr "August"
+
+msgid "oct"
+msgstr "October"
+
+msgid "nov"
+msgstr "November"
+
+msgid "dec"
+msgstr "December"
+
+msgid "default_all_select"
+msgstr "All select default"
+
+msgid "prefix"
+msgstr "Prefix"
+
+msgid "all"
+msgstr "All"
+
+msgid "parent"
+msgstr "Parent"
+
+msgid "parent_id"
+msgstr "Parent id"
+
+msgid "parent_slug"
+msgstr "Parent slug"
+
+msgid "parent_name"
+msgstr "Parent name"
+
+msgid "edit_password"
+msgstr "Edit password"
+
+msgid "old_password"
+msgstr "Old password"
+
+msgid "new_password"
+msgstr "New password"
+
+msgid "confirm_new_password"
+msgstr "Verify password"
+
+msgid "username_password_not_found"
+msgstr "Old Password not correct"
+
+msgid "update_password_succeed"
+msgstr "Update password succeed"
+
+msgid "newpw_confirmpw_not_match"
+msgstr "New password and confirm password not match"
+
+msgid "must_have_role_prefix"
+msgstr "[Must have 'role' prefix]"
+
+msgid "must_have_perm_admin_prefix"
+msgstr "[Must have 'perm-admin-' prefix]"
+
+msgid "collapse_all"
+msgstr "Collapse"
+
+msgid "expand_all"
+msgstr "Expand"
+
+msgid "no_data"
+msgstr "No data right now, please come back later"
+
+msgid "thumbnail"
+msgstr "Thumbnail"
+
+msgid "invalid_company"
+msgstr "Invalid Company"
+
+msgid "invalid_brand"
+msgstr "Invalid Brand"
+
+msgid "saved_succeed"
+msgstr "Save succeed"
+
+msgid "saved_failed"
+msgstr "The data could not be saved. Please try again."
+
+msgid "version"
+msgstr "Version"
+
+msgid "payment_method"
+msgstr "Payment Method"
+
+msgid "page_not_found"
+msgstr "The page you are looking for was not found"
+
+msgid "does_not_permission_to_access"
+msgstr "You do not have permission to acces this page"
+
+msgid "method_is_not_allow"
+msgstr "This method is not allowed"
+
+msgid "type"
+msgstr "Type"
+
+msgid "code"
+msgstr "Code"
+
+msgid "number"
+msgstr "Number"
+
+msgid "target"
+msgstr "Target"
+
+msgid "url"
+msgstr "Url"
+
+msgid "file"
+msgstr "File"
+
+msgid "have_parent"
+msgstr "Parent"
+
+msgid "have_not_parent"
+msgstr "Dont exists Parent"
+
+msgid "good_morning"
+msgstr "Good morning"
+
+msgid "good_afternoon"
+msgstr "Good afternoon"
+
+msgid "good_evening"
+msgstr "Good evening"
+
+msgid "show_duplicate_permission"
+msgstr "Show Duplicate Permission"
+
+msgid "same_permission_not_found"
+msgstr "Don't exists same permission"
+
+msgid "duplicate_email_exists"
+msgstr "email is exists"
+
+msgid "status"
+msgstr "Status"
+
+msgid "name"
+msgstr "Name"
+
+msgid "exist_phone_number"
+msgstr "Phone Number is exist"
+
+msgid "description"
+msgstr "Description"
+
+msgid "content"
+msgstr "Content"
+
+msgid "terms"
+msgstr "Terms and conditions"
+
+msgid "privacy"
+msgstr "Privacy policy"
+
+msgid "address"
+msgstr "Address"
+
+msgid "hotline"
+msgstr "Hotline"
+
+msgid "service_time"
+msgstr "Service Time"
+
+msgid "opening"
+msgstr "Opening time"
+
+msgid "zho_language"
+msgstr "繁體中文"
+
+msgid "chi_language"
+msgstr "简体中文"
+
+msgid "eng_language"
+msgstr "English"
+
+msgid "log"
+msgstr "Log"
+
+msgid "logs"
+msgstr "Logs"
+
+msgid "log_api"
+msgstr "Log API"
+
+msgid "sign_in_first"
+msgstr "Please sign in first"
+
+msgid "missing_id"
+msgstr "Missing ID"
+
+msgid "console"
+msgstr "Control Panel"
+
+msgid "not_used_in_mobile"
+msgstr "You are using your mobile phone now. If you want to use this feature, please switch to PC or tablet."
+
+msgid "age"
+msgstr "Age"
+
+msgid "gender"
+msgstr "Gender"
+
+msgid "district"
+msgstr "District"
+
+msgid "month_of_birth"
+msgstr "Month of birth"
+
+msgid "mon"
+msgstr "Monday"
+
+msgid "tue"
+msgstr "Tuesday"
+
+msgid "wed"
+msgstr "Wednesday"
+
+msgid "thu"
+msgstr "Thursday"
+
+msgid "fri"
+msgstr "Friday"
+
+msgid "sat"
+msgstr "Saturday"
+
+msgid "sun"
+msgstr "Sunday"
+
+msgid "execute_time"
+msgstr "Execute time"
+
+msgid "yearly"
+msgstr "Yearly"
+
+msgid "monthly"
+msgstr "Monthly"
+
+msgid "daily"
+msgstr "daily"
+
+msgid "weekday"
+msgstr "Weekday"
+
+msgid "specific_date"
+msgstr "Specific date"
+
+msgid "other"
+msgstr "Other"
+
+msgid "please_provide_information"
+msgstr "Please provide information"
+
+msgid "language"
+msgstr "Language"
+
+msgid "publish"
+msgstr "Publish"
+
+msgid "unpublish"
+msgstr "Unpublish"
+
+msgid "is_public"
+msgstr "Is Publish"
+
+msgid "do_you_want_to_publish_or_un"
+msgstr "Do you want to %s '%s'"
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "no"
+msgstr "No"
+
+msgid "close"
+msgstr "Close"
+
+msgid "approve"
+msgstr "Approve"
+
+msgid "reject"
+msgstr "Reject"
+
+msgid "slug_start_with"
+msgstr "Must be start with [%s]"
+
+msgid "confirm_continuous_edit_pending"
+msgstr "There is one pending record. Do you want to continuous editing this %s"
+
+msgid "obj_detail"
+msgstr "%s details"
+
+msgid "obj_histories"
+msgstr "%s histories"
+
+msgid "obj_have_not_approved"
+msgstr "This %s item haven't approved yet"
+
+msgid "obj_is_disabled"
+msgstr "%s id:[%s] is disabled"
+
+msgid "obj_is_enabled"
+msgstr "%s id:[%s] is enabled"
+
+msgid "do_you_want_to_change_status"
+msgstr "Do you want to change current status to [action]"
+
+msgid "confirm_change_status"
+msgstr "Please confirm changing status"
+
+msgid "obj_is_published"
+msgstr "[%s] is published"
+
+msgid "obj_is_rejected"
+msgstr "[%s] is rejected"
+
+msgid "allow_public"
+msgstr "Is allow public"
+
+msgid "email_subject_confirm"
+msgstr "[%s] Please confirm this [%s] email"
+
+msgid "reduct"
+msgstr "Reduct"
+
+msgid "do_nothing"
+msgstr "Do nothing"
+
+msgid "enable_multiple_same_not_allow"
+msgstr "Enable multiple %s for the same %s is not allowed"
+
+msgid "overlap_is_not_allowed"
+msgstr "%s for the same %s can not be overlap"
+
+msgid "should_be_greater_than_zero"
+msgstr "%s should be greater than zero(0)"
+
+msgid "cj_birthday_title"
+msgstr "[Birthday surprise. Big reward] Send your birthday coupon"
+
+msgid "cj_birthday_message"
+msgstr "Celebrating birthdays is not necessarily limited to birthday cakes! Celebrate with the tea wood, T-Factory has prepared honey bricks for you for birthday! I wish you the best, your day! (See my coupon for details)"
+
+msgid "cj_reactive_account_title"
+msgstr "[Reactive account event]"
+
+msgid "cj_reactive_account_message"
+msgstr "try to reactive account meesage"
+
+msgid "cj_account_expire_week_title"
+msgstr "[Expire Account] Your account will be expire next week"
+
+msgid "cj_account_expire_week_message"
+msgstr "Your account will be expire next week"
+
+msgid "cj_account_expire_month_title"
+msgstr "[Expiry Account] Your account will be expire next month"
+
+msgid "cj_account_expire_month_message"
+msgstr "[Expiry Account] Your account will be expire next month"
+
+msgid "cj_point_expire_week_title"
+msgstr "[Expiry Point] Your point will be expire next week"
+
+msgid "cj_point_expire_week_message"
+msgstr "Your point will be expire next week"
+
+msgid "cj_point_expire_month_title"
+msgstr "[Expiry Point] Your point will be expire next month"
+
+msgid "cj_point_expire_month_message"
+msgstr "Your point will be expire next month"
+
+msgid "plugin"
+msgstr "Plugin"
+
+msgid "controller"
+msgstr "Controller"
+
+msgid "action"
+msgstr "Action"
+
+msgid "error"
+msgstr "Error"
+
+msgid "device_token"
+msgstr "Device token"
+
+msgid "received_params"
+msgstr "Received params"
+
+msgid "cj_expire_month_message"
+msgstr "Your account will be expire next month"
+
+msgid "transfer"
+msgstr "Transfer"
+
+msgid "transfer_label"
+msgstr "Transfer %s"
+
+msgid "age_group"
+msgstr "Age Group"
+
+msgid "month"
+msgstr "Month"
+
+msgid "week"
+msgstr "Week"
+
+msgid "percent_of_active"
+msgstr "% of active members"
+
+msgid "zho_name"
+msgstr "繁體中文"
+
+msgid "chi_name"
+msgstr "简体中文"
+
+msgid "eng_name"
+msgstr "English"
+
+msgid "vie_name"
+msgstr "Vietnam"
+
+msgid "zho_short_name"
+msgstr "HK"
+
+msgid "chi_short_name"
+msgstr "Chi"
+
+msgid "eng_short_name"
+msgstr "Eng"
+
+msgid "vie_short_name"
+msgstr "VN"
+
+msgid "data_is_empty"
+msgstr "Data is empty"
+
+msgid "email_subject_verify_account"
+msgstr "Verify Account"
+
+msgid "hello"
+msgstr "Hello"
+
+msgid "congratulation_join"
+msgstr "Congratulation on becoming a member of %s. Your verify code is: "
+
+msgid "thank_you"
+msgstr "Thank You"
+
+msgid "email_subject_forgot_password"
+msgstr "Forgot Password"
+
+msgid "forgot_password_content"
+msgstr "We have sent you this email in response to your request to reset your password on %s. Please insert your verify code that is <b>%s</b> to application to change password"
+
+msgid "forgot_password_content_admin"
+msgstr "We have sent you this email in response to your request to reset your password on %s. Please click below link <a href=\"%s\">%s</a> to change password"
+
+msgid "invalid_data_or_birthday_had_changed"
+msgstr "invalid data or brithday had changed"
+
+msgid "remind_edit_birthday"
+msgstr "Member's birthday just can change one TIME, do you want to continue?"
+
+msgid "title_remind_edit_birthday"
+msgstr "Remind Edit Member's birthday"
+
+msgid "table"
+msgstr "Table"
+
+msgid "value"
+msgstr "Value"
+
+msgid "start_date"
+msgstr "Start Date"
+
+msgid "end_date"
+msgstr "End Date"
+
+msgid "each_day"
+msgstr "Day"
+
+msgid "each_month"
+msgstr "Month"
+
+msgid "data_is_updated"
+msgstr "Updated"
+
+msgid "approved"
+msgstr "Approved"
+
+msgid "rejected"
+msgstr "Rejected"
+
+msgid "go_back_to_frontend"
+msgstr "Back to Home Page"
+
+msgid "zho_language_name"
+msgstr "Name 中文(繁體)"
+
+msgid "chi_language_name"
+msgstr "Name 中文(简体)"
+
+msgid "eng_language_name"
+msgstr "Name (English)"
+
+msgid "zho_language_about_us"
+msgstr "About us 中文(繁體)"
+
+msgid "chi_language_about_us"
+msgstr "About us 中文(简体)"
+
+msgid "eng_language_about_us"
+msgstr "About us (English)"
+
+msgid "zho_first_name"
+msgstr "First name 中文(繁體)"
+
+msgid "chi_first_name"
+msgstr "First name 中文(简体)"
+
+msgid "eng_first_name"
+msgstr "First name (English)"
+
+msgid "zho_last_name"
+msgstr "Last name 中文(繁體)"
+
+msgid "chi_last_name"
+msgstr "Last name 中文(简体)"
+
+msgid "eng_last_name"
+msgstr "Last name (English)"
+
+msgid "change_password_successfully"
+msgstr "Change Password Sucessfully"
+
+msgid "zho_version"
+msgstr "Chinese (中文(繁體))"
+
+msgid "chi_version"
+msgstr "Chinese (中文(简体))"
+
+msgid "eng_version"
+msgstr "English"
+
+msgid "required"
+msgstr "(*) Mandatory to fill in"
+

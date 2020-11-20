@@ -1,0 +1,1056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "admin_add_teacher_create_lesson"
+msgstr "修改課堂"
+
+msgid "admin_teacher_create_lesson"
+msgstr "我的課堂"
+
+msgid "admin_edit_teacher_create_lesson"
+msgstr "修改課堂"
+
+msgid "start_time"
+msgstr "開始時間"
+
+msgid "assistant_teacher"
+msgstr "加入其他導師"
+
+msgid "list_class"
+msgstr "授課班別"
+
+msgid "teacher_id"
+msgstr "主教導師"
+
+msgid "title"
+msgstr "課堂名稱"
+
+msgid "list_teacher"
+msgstr "共同授課導師"
+
+msgid "duration"
+msgstr "延續時間"
+
+msgid "duration_hours"
+msgstr "小時"
+
+msgid "duration_minutes"
+msgstr "分鐘"
+
+msgid "meeting"
+msgstr "會議連結"
+
+msgid "school"
+msgstr "學校"
+
+msgid "fail_to_login"
+msgstr "登入帳號或密碼錯誤"
+
+msgid "recording_video"
+msgstr "重播實時課堂"
+
+msgid "please_login_first"
+msgstr "請先登入"
+
+msgid "this_account_dont_exist_teacher_role"
+msgstr "這帳號沒有導師的角色"
+
+msgid "this_account_dont_exist_student_role"
+msgstr "這帳號沒有學生的角色"
+
+msgid "page_not_found"
+msgstr "頁面維修中"
+
+msgid "back_to_home"
+msgstr "返回主頁"
+
+msgid "technical_support"
+msgstr "幫助"
+
+msgid "language"
+msgstr "語言"
+
+msgid "traditional_chinese"
+msgstr "繁體中文"
+
+msgid "simplified_chinese"
+msgstr "簡體中文"
+
+msgid "recommend_video"
+msgstr "推薦影片"
+
+msgid "download_app"
+msgstr "下載APP"
+
+msgid "sign_up"
+msgstr "註冊"
+
+msgid "invalid_username"
+msgstr "沒有此帳戶"
+
+msgid "invalid_password"
+msgstr "密碼錯誤"
+
+msgid "exist_username"
+msgstr "帳戶名稱已存在"
+
+msgid "exist_email"
+msgstr "電子郵箱已存在"
+
+msgid "exist_phone_number"
+msgstr "手機號碼已存在"
+
+msgid "send_mail_register_success_with_member"
+msgstr "感謝您的註冊！ 請輸入我們發送到 %s 的驗證碼以啟動帳號"
+
+msgid "send_mail_forgot_success_with_member"
+msgstr "我們已發送重設密碼的連結給您到%s， 請檢查電子郵箱"
+
+msgid "active_register_code"
+msgstr "驗證碼正確"
+
+msgid "invalid_register_code"
+msgstr "驗證碼錯誤"
+
+msgid "member_not_verified"
+msgstr "帳戶沒驗證"
+
+msgid "invalid_token"
+msgstr "Token錯誤"
+
+msgid "invalid_role"
+msgstr "角色錯誤"
+
+msgid "enter_usename"
+msgstr "帳號"
+
+msgid "enter_password"
+msgstr "密碼"
+
+msgid "enter_school_code"
+msgstr "請輸入5-9位的學校編號 (如有)"
+
+msgid "create_new_account"
+msgstr "或建立新帳號："
+
+msgid "create_new_usename"
+msgstr "帳號 / 6位以上字母、數字或字符"
+
+msgid "last_name"
+msgstr "姓氏"
+
+msgid "first_name"
+msgstr "名字"
+
+msgid "email"
+msgstr "電子郵箱"
+
+msgid "phone_number"
+msgstr "電話號碼"
+
+msgid "create_new_password"
+msgstr "密碼 / 8位以上字母、數字或字符"
+
+msgid "show"
+msgstr "顯示"
+
+msgid "hide"
+msgstr "隐藏"
+
+msgid "term_n_privacy"
+msgstr "按下註冊表示你同意我們的"
+
+msgid "privacy_policy"
+msgstr "私隱政策"
+
+msgid "term"
+msgstr "使用條款"
+
+msgid "and"
+msgstr "和"
+
+msgid "help"
+msgstr "幫助"
+
+msgid "logout"
+msgstr "登出"
+
+msgid "registration_success"
+msgstr "註冊成功"
+
+msgid "registration_success_message"
+msgstr "您已成功啟動帳號！"
+
+msgid "start_personal_setting"
+msgstr "開始個人化設定"
+
+msgid "skip"
+msgstr "略過"
+
+msgid "your_nickname"
+msgstr "您的暱稱"
+
+msgid "next_step"
+msgstr "下一步"
+
+msgid "add_avatar"
+msgstr "添加頭像"
+
+msgid "picture_limit_5MB"
+msgstr "圖片不大於5MB"
+
+msgid "complete"
+msgstr "完成"
+
+msgid "verification_email"
+msgstr "驗證電子郵箱"
+
+msgid "have_not_received_the_verification_code"
+msgstr "還沒收到驗證碼？"
+
+msgid "resend"
+msgstr "重新發送"
+
+msgid "my_page"
+msgstr "我的專頁："
+
+msgid "my_community"
+msgstr "我的社群："
+
+msgid "add_class"
+msgstr "添加課堂"
+
+msgid "upload_material"
+msgstr "添加功課"
+
+msgid "upload_videos"
+msgstr "上載影片"
+
+msgid "subject"
+msgstr "科目"
+
+msgid "select_account"
+msgstr "選擇科目"
+
+msgid "for_example_liu_hefa_and_brain_map"
+msgstr "例如：六何法及腦圖"
+
+msgid "which_name_do_you_want_the_class_card_to_display"
+msgstr "你希望課堂卡顯示哪個名稱？"
+
+msgid "about_this_lesson"
+msgstr "關於本課"
+
+msgid "optional"
+msgstr "選填"
+
+msgid "teaching_material"
+msgstr "教材"
+
+msgid "upload_file_or_drag_it_here"
+msgstr "上載文件或將其拖到此處"
+
+msgid "less_than_5mb_per_file"
+msgstr "每個文件不多於5MB"
+
+msgid "class"
+msgstr "班別"
+
+msgid "choose_a_class"
+msgstr "選擇班別"
+
+msgid "co_teaching"
+msgstr "共同授課"
+
+msgid "date"
+msgstr "日期"
+
+msgid "sample_date"
+msgstr "2020年4月24日，星期五"
+
+msgid "time"
+msgstr "時間"
+
+msgid "from"
+msgstr "由"
+
+msgid "to"
+msgstr "至"
+
+msgid "repeat"
+msgstr "重複"
+
+msgid "no_repeat"
+msgstr "不重複"
+
+msgid "every_day"
+msgstr "每天"
+
+msgid "weekly"
+msgstr "每週"
+
+msgid "after"
+msgstr "次"
+
+msgid "after_the_live_broadcast_should_the_video_be_opened_for_students_to_relive"
+msgstr "直播結束後，要開放視頻給學生重溫嗎?"
+
+msgid "not_open"
+msgstr "不開放"
+
+msgid "open"
+msgstr "開放"
+
+msgid "submit"
+msgstr "提交"
+
+msgid "the_class_card_will_be_displayed_on_each_participant_homepage_on_the_day_of_class"
+msgstr "課堂卡會於上課當日顯示於各參與者的首頁"
+
+msgid "subjects_you_teach"
+msgstr "你任教的科目"
+
+msgid "determine"
+msgstr "確定"
+
+msgid "multiple_choice"
+msgstr "可多選"
+
+msgid "the_class_you_teach"
+msgstr "你任教的班別"
+
+msgid "choose_a_teacher_to_teach_together"
+msgstr "選擇共同授課的導師"
+
+msgid "all_teachers"
+msgstr "全部導師"
+
+msgid "other_subjects"
+msgstr "其他科目"
+
+msgid "use_invitation_code"
+msgstr "使用邀請編碼"
+
+msgid "lesson_description_sample"
+msgstr "例如：如何運用六何法來書寫記敍文？詞語怎樣為文章增添感情色彩？"
+
+msgid "other_classes"
+msgstr "其他班別"
+
+msgid "symbol_comma"
+msgstr "、"
+
+msgid "invitation_letter"
+msgstr "邀請信"
+
+msgid "send_mail_succeed"
+msgstr "發郵件成功"
+
+msgid "binding_account_succeed"
+msgstr "綁定帳號成功"
+
+msgid "binding_account_failed"
+msgstr "綁定帳號失敗"
+
+msgid "invite_member_histories"
+msgstr "邀請會員"
+
+msgid "verified"
+msgstr "已驗證"
+
+msgid "member"
+msgstr "會員"
+
+msgid "username"
+msgstr "用戶名"
+
+msgid "register_code"
+msgstr "註冊編碼"
+
+msgid "join_day"
+msgstr "參加日"
+
+msgid "invitation_code"
+msgstr "邀請編碼"
+
+msgid "member_login_method"
+msgstr "會員登錄方式"
+
+msgid "import_student"
+msgstr "導入學生"
+
+msgid "import_teacher"
+msgstr "導入導師"
+
+msgid "import_histories"
+msgstr "導入會員紀錄"
+
+msgid "import_histories_record"
+msgstr "導入會員紀錄"
+
+msgid "hello"
+msgstr "您好"
+
+msgid "you_have_no_class_today"
+msgstr "今天你沒有課堂."
+
+msgid "today_you_have"
+msgstr "今天你有 %s 節課堂"
+
+msgid "classroom"
+msgstr "教室"
+
+msgid "enter_the_classroom"
+msgstr "進入教室"
+
+msgid "view_video"
+msgstr "查看視頻"
+
+msgid "hello_teacher"
+msgstr "哈囉"
+
+msgid "i_want_to_invite_you_to_become_a_tutor_of_this_school_are_you_a_member_of_ours"
+msgstr "想邀請您成為該校的%s，您是全民學習 All4LeARN 會員嗎?"
+
+msgid "i_am_member"
+msgstr "我是會員"
+
+msgid "no_i_want_to_register"
+msgstr "不是，我要註冊"
+
+msgid "sign_in_now_to_connect_you_with"
+msgstr "請完成下方的表格以啟動帳號。"
+
+msgid "choose_a_school"
+msgstr "選擇學校"
+
+msgid "link_invite_not_availabled"
+msgstr "邀請連結無效"
+
+msgid "subject_confirm"
+msgstr "驗證你的電子郵箱地址以啟動帳號"
+
+msgid "please_complete_the_form_below_to_activate_your_account"
+msgstr "請完成下方的表格以啟動帳號。"
+
+msgid "about_us"
+msgstr "關於我們"
+
+msgid "library"
+msgstr "影片庫"
+
+msgid "you_have_many_class_today"
+msgstr "今天你有 %s 節課堂"
+
+msgid "explore"
+msgstr "探索"
+
+msgid "limit_duration"
+msgstr "(開始時間不可以於一小時內)"
+
+msgid "limit_frequence"
+msgstr "最多五次"
+
+msgid "student"
+msgstr "學生"
+
+msgid "teacher"
+msgstr "導師"
+
+msgid "download_as_assignment"
+msgstr "下載功課"
+
+msgid "create_assignment"
+msgstr "建立功課"
+
+msgid "download"
+msgstr "下載"
+
+msgid "student_name"
+msgstr "學生姓名"
+
+msgid "lesson_name"
+msgstr "課堂名稱"
+
+msgid "view_assignment"
+msgstr "查看功課"
+
+msgid "submit_assignment"
+msgstr "提交功課"
+
+msgid "homework_name"
+msgstr "功課名稱"
+
+msgid "homework_name_sample"
+msgstr "例如：正方形的構作"
+
+msgid "homework_guidelines"
+msgstr "功課指引"
+
+msgid "homework_guidelines_sample"
+msgstr "例如：說明功課格式"
+
+msgid "file"
+msgstr "文件"
+
+msgid "deadline_date_n_time"
+msgstr "繳交日期及時間"
+
+msgid "add_homework"
+msgstr "添加功課"
+
+msgid "assignments"
+msgstr "我的功課"
+
+msgid "teacher_create_assignment"
+msgstr "導師建立新功課"
+
+msgid "student_submission"
+msgstr "學生交功課"
+
+msgid "you_can_also_invite_other_teachers_to_observe"
+msgstr "你亦可邀請其他導師觀堂"
+
+msgid "choose_a_teacher"
+msgstr "選擇導師"
+
+msgid "deadline"
+msgstr "截止提交時間"
+
+msgid "upload_time"
+msgstr "上載時間"
+
+msgid "review_lesson"
+msgstr "重溫課程"
+
+msgid "no_recording_video"
+msgstr "沒有重播實時課堂"
+
+msgid "login_method"
+msgstr "登入方式"
+
+msgid "token"
+msgstr "Token"
+
+msgid "message"
+msgstr "信息"
+
+msgid "add_invite_member_history"
+msgstr "邀請會員"
+
+msgid "add_member"
+msgstr "新增會員"
+
+msgid "over"
+msgstr "已結束"
+
+msgid "end_time"
+msgstr "結束時間"
+
+msgid "cannot_setup_a_class_cross_to_next_day"
+msgstr "不容許開班在兩天的時間"
+
+msgid "start_time_cannot_from_past"
+msgstr "不容許開班在過去的時間"
+
+msgid "logout_succeed"
+msgstr "登出成功"
+
+msgid "logout_failed"
+msgstr "登出失敗"
+
+msgid "deadline_invalid"
+msgstr "期限交功課錯誤"
+
+msgid "score"
+msgstr "分數"
+
+msgid "remark"
+msgstr "備註"
+
+msgid "feedback"
+msgstr "評語"
+
+msgid "view_assignment_feedback"
+msgstr "下載已評分功課"
+
+msgid "create_submission_feeback"
+msgstr "創建提交反饋"
+
+msgid "date_n_time"
+msgstr "日期和時間"
+
+msgid "please_select_hours"
+msgstr "請選擇小時"
+
+msgid "please_select_minute"
+msgstr "請選擇分鐘"
+
+msgid "organization_school_name"
+msgstr "機構 / 學校名稱"
+
+msgid "organization_school_code"
+msgstr "學校代碼"
+
+msgid "organization_school_code_placeholder"
+msgstr "請設定5-9位的學校編號"
+
+msgid "contact_person"
+msgstr "聯絡人"
+
+msgid "contact_no"
+msgstr "聯絡電話號碼"
+
+msgid "address"
+msgstr "地址"
+
+msgid "business_registration_proof"
+msgstr "商業登記證明"
+
+msgid "apply_now"
+msgstr "立即申請"
+
+msgid "why_choose"
+msgstr "為甚麼選擇"
+
+msgid "school_registration_notification"
+msgstr "登記學校通知信"
+
+msgid "internal_view_only"
+msgstr "(只限內部檢視)"
+
+msgid "operation"
+msgstr "操作"
+
+msgid "create_school"
+msgstr "建立學校專頁"
+
+msgid "submit_create_school_success"
+msgstr "我們已收到您的申請，並很快會回覆你。"
+
+msgid "successfully_submit"
+msgstr "提交成功"
+
+msgid "confirm_leaving_create_school"
+msgstr "您已經完成表格上的某些部分，您確定要離開嗎？"
+
+msgid "back_to_form"
+msgstr "返回編輯"
+
+msgid "leave"
+msgstr "離開"
+
+msgid "school_profile"
+msgstr "學校簡介"
+
+msgid "school_information"
+msgstr "學校資料"
+
+msgid "save"
+msgstr "儲存"
+
+msgid "edit"
+msgstr "編輯"
+
+msgid "let_everyone_know_more_about_your_school"
+msgstr "讓大家進一步了解您的學校"
+
+msgid "edit_introduction"
+msgstr "編輯簡介"
+
+msgid "add_phone"
+msgstr "新增電話號碼"
+
+msgid "add_email"
+msgstr "新增電子郵箱"
+
+msgid "add_address"
+msgstr "新增地址"
+
+msgid "later"
+msgstr "稍後再說"
+
+msgid "mr"
+msgstr "先生"
+
+msgid "ms"
+msgstr "小姐"
+
+msgid "mrs"
+msgstr "太太"
+
+msgid "change_cover_photo"
+msgstr "更換封面照片"
+
+msgid "school_control_panel"
+msgstr "學校控制台"
+
+msgid "upload_finished_assignment"
+msgstr "上載已完成的功課"
+
+msgid "school_approval_completed"
+msgstr "學校審批完成"
+
+msgid "school_approval_completed_message"
+msgstr "您所申請的學校專頁已成功審批！您現在可以到學校專頁進行編輯。"
+
+msgid "start_to_manage_the_school"
+msgstr "開始管理學校"
+
+msgid "update_password"
+msgstr "更新密碼"
+
+msgid "current_password"
+msgstr "當前密碼"
+
+msgid "new_password"
+msgstr "新密碼"
+
+msgid "repeat_new_password"
+msgstr "重複新密碼"
+
+msgid "forget_password"
+msgstr "忘記密碼？"
+
+msgid "topup"
+msgstr "增值"
+
+msgid "school_actual_credit"
+msgstr "截至今天 %s；您有"
+
+msgid "topup_coins"
+msgstr "增值金幣"
+
+msgid "coin"
+msgstr "金幣"
+
+msgid "input_quantity"
+msgstr "輸入數量"
+
+msgid "top_up_success"
+msgstr "充值狀態"
+
+msgid "top_up_success_message"
+msgstr "感謝您的付款，<span class='text-green'>%s 個</span>金幣已增值到<span class='text-green'>%s</span>"
+
+msgid "done"
+msgstr "完成"
+
+msgid "top_up_fail"
+msgstr "增值失敗"
+
+msgid "top_up_fail_message"
+msgstr "抱歉，付款過程出現問題。請再次嘗試或聯絡 全民學習All4LeARN。"
+
+msgid "members_credits"
+msgstr "會籍"
+
+msgid "members_credit"
+msgstr "會籍"
+
+msgid "add_members_credit"
+msgstr "新增會籍"
+
+msgid "school_admin"
+msgstr "學校管理員"
+
+msgid "pay_dollar_ref"
+msgstr "支付收据"
+
+msgid "confirm"
+msgstr "確定"
+
+msgid "back"
+msgstr "返回"
+
+msgid "confirm_topup_message"
+msgstr "您要為<span class='text-green'>%s</span>增值<span class='text-green'>%s個</span>金幣嗎？"
+
+msgid "membership"
+msgstr "會籍"
+
+msgid "edit_school"
+msgstr "編輯%s"
+
+msgid "this_class_empty_student"
+msgstr "這班還沒有學生参加"
+
+msgid "teachers_assignments"
+msgstr "教師作業"
+
+msgid "period"
+msgstr "時段"
+
+msgid "disable_account"
+msgstr "停用帳戶"
+
+msgid "enabled_account"
+msgstr "啟用賬戶"
+
+msgid "reset_password"
+msgstr "修改密碼"
+
+msgid "send_email_successfully"
+msgstr "發郵件成功"
+
+msgid "member_manage_school"
+msgstr "會員管理學校"
+
+msgid "member_manage_schools"
+msgstr "會員管理學校一覽"
+
+msgid "add_member_manage_schools"
+msgstr "新增會員管理學校"
+
+msgid "teacher_role"
+msgstr "教師角色"
+
+msgid "student_role"
+msgstr "學生角色"
+
+msgid "edit_homework"
+msgstr "編輯功課"
+
+msgid "download_all"
+msgstr "下載已選"
+
+msgid "resubmit"
+msgstr "重新提交"
+
+msgid "edit_member_login_method"
+msgstr "編輯會員登入方法"
+
+msgid "deadline_for_submission"
+msgstr "截止提交時間"
+
+msgid "views"
+msgstr "意見"
+
+msgid "grading"
+msgstr "評分"
+
+msgid "teacher_feedback_assignment"
+msgstr "功課評分"
+
+msgid "member_record"
+msgstr "會員紀錄"
+
+msgid "create_member"
+msgstr "建立會員"
+
+msgid "members"
+msgstr "會員一覽"
+
+msgid "invite_member_record"
+msgstr "邀請會員紀錄"
+
+msgid "faqs"
+msgstr "常見問題"
+
+msgid "userguide"
+msgstr "用戶手冊"
+
+msgid "submission_time"
+msgstr "提交功課時間"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "download_template"
+msgstr "下載範本"
+
+msgid "description"
+msgstr "描述"
+
+msgid "class_id"
+msgstr "班別編號"
+
+msgid "class_type"
+msgstr "班別類型"
+
+msgid "class_no"
+msgstr "班號"
+
+msgid "field_import"
+msgstr "%s(%s)"
+
+msgid "required_inport_student"
+msgstr "必填：%s，%s，%s"
+
+msgid "required_inport_teacher"
+msgstr "必填：%s，%s，%s"
+
+msgid "optional_inport"
+msgstr "可選: %s, %s"
+
+msgid "field_defined"
+msgstr "%s: %s"
+
+msgid "username_defined"
+msgstr "不允許使用空格字符"
+
+msgid "class_id_defined"
+msgstr "(整數）：在 ”學校” => ”班別列表”裡 的 “班別編號”"
+
+msgid "class_type_defined"
+msgstr "（整數）1：小學班級，0其他班級"
+
+msgid "class_no_defined"
+msgstr "（整數）"
+
+msgid "choose_file"
+msgstr "選擇檔案"
+
+msgid "no_file_choosen"
+msgstr "未選擇任何檔案"
+
+msgid "token_explains"
+msgstr "一枚金幣 = 港幣1元<br>金幣一經購買將不獲退款<br>金幣不能兌換現金"
+
+msgid "purchase_success_message"
+msgstr "我們已收到您的代幣充值請求，您的請求正在處理中"
+
+msgid "send_confirm_payment"
+msgstr "您的金幣充值要求正在處理中"
+
+msgid "add_confirm_payment"
+msgstr "金幣充值通知"
+
+msgid "a4l_right_reserved"
+msgstr "* All4LeARN保留所有權利"
+
+msgid "this_score_is_set_cannot_upload_again"
+msgstr "老師已給了分數，無法上傳新作業"
+
+msgid "overlap"
+msgstr "這課堂時間已經存在"
+
+msgid "overlap_message"
+msgstr "本課程與存在課程已重疊: %s - %s - %s:%s"
+
+msgid "enter_email_reset_password"
+msgstr "請輸入已註冊的電子郵箱，我們會發送重設密碼的連結給您；如您使用的是學校帳號，請聯絡貴校尋求幫助。"
+
+msgid "remmeber_password"
+msgstr "你記得密碼了？"
+
+msgid "try_to_login"
+msgstr "嘗試登入"
+
+msgid "forgot_password"
+msgstr "忘記密碼"
+
+msgid "email_does_not_exist"
+msgstr "電子郵箱不存在"
+
+msgid "password_reset_successfully_message"
+msgstr "您現在可以使用新密碼登入到您的帳號"
+
+msgid "password_reset_successfully"
+msgstr "成功重設密碼"
+
+msgid "reset_your_password"
+msgstr "重設您的密碼"
+
+msgid "please_enter_new_password"
+msgstr "請輸入新密碼"
+
+msgid "confirm_your_new_password"
+msgstr "確認您的新密碼"
+
+msgid "import_file_teacher"
+msgstr "批量匯入"
+
+msgid "export_teacher"
+msgstr "匯出資料"
+
+msgid "teacher_name_platform_account"
+msgstr "老師名稱/平台帳號"
+
+msgid "show_name"
+msgstr "顯示名稱"
+
+msgid "reset_password"
+msgstr "重設密碼"
+
+msgid "auto_daily_report_transactions"
+msgstr "報表會籍"
+
+msgid "email_is_confirm"
+msgstr "電子郵箱已確認成功"
+
+msgid "confirm_change_email_address"
+msgstr "確認更改電子郵件地址"
+
+msgid "overlap_notice"
+msgstr "課堂時間重疊"
+
+msgid "no_permission"
+msgstr "沒有權限"
+
+msgid "host_key"
+msgstr "主持人密碼"
+
+msgid "exist_username_in_group"
+msgstr "帳戶名稱已存在這群組"
+
+msgid "lesson_title"
+msgstr "課程標題"
+
+msgid "display_name"
+msgstr "名稱"
+
+msgid "upload_max_size_file"
+msgstr "每個文件不多於%s"
+
+msgid "supported_file"
+msgstr "支持的文件類型"
+
+msgid "today"
+msgstr "今天"
+
+msgid "sunday"
+msgstr "日"
+
+msgid "monday"
+msgstr "一"
+
+msgid "tuesday"
+msgstr "二"
+
+msgid "wednesday"
+msgstr "三"
+
+msgid "thursday"
+msgstr "四"
+
+msgid "friday"
+msgstr "五"
+
+msgid "saturday"
+msgstr "六"
+
+msgid "week"
+msgstr "週"
+
+msgid "month"
+msgstr "月"
+
+msgid "features"
+msgstr "最新功能"
+
+msgid "link_invite_used"
+msgstr "鏈接邀請已使用"
+
+msgid "record_note"
+msgstr "(如按\"是\", 請在實時課堂內按 錄影按鈕.)"

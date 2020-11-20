@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "promotion_section"
+msgstr "鏈結功能"
+
+msgid "object"
+msgstr "鏈結項目"
+
+msgid "link"
+msgstr "網站鏈結"
+
+msgid "title"
+msgstr "標題"
+
+msgid "message"
+msgstr "訊息"
+
+msgid "tier"
+msgstr "會員等級"
+
+msgid "join_from"
+msgstr "會員註冊日期（由）"
+
+msgid "join_to"
+msgstr "會員註冊日期（至）"
+
+msgid "spending_form"
+msgstr "消費金額(由)"
+
+msgid "spending_to"
+msgstr "消費金額(至)"
+
+msgid "period_start"
+msgstr "會藉開始時間"
+
+msgid "period_end"
+msgstr "會藉結束時間"
+
+msgid "specific_date"
+msgstr "具体日期"
+
+msgid "member_token"
+msgstr "输入成員令牌，由“，”拆分"
+
+msgid "invalid_push_type"
+msgstr "推送類型無效"
+
+msgid "invalid_push_method"
+msgstr "無效的推送方法"
+
+msgid "confirm_to_push_to_all"
+msgstr "是否推送消息至全部會員"
+
+msgid "invalid_push_rule"
+msgstr "推送規則無效"
+
+msgid "add_push"
+msgstr "添加推送"
+
+msgid "push_method_language"
+msgstr "推送方法语言"
+
+msgid "add_push_method_language"
+msgstr "添加推送方法语言"
+
+msgid "edit_push_method_language"
+msgstr "編輯推送方法语言"
+
+msgid "execute_date"
+msgstr "执行日期"
+
+msgid "push_method"
+msgstr "推送方法"
+
+msgid "add_push_method"
+msgstr "添加推送方法"
+
+msgid "edit_push_method"
+msgstr "編輯推送方法"
+
+msgid "push_rule"
+msgstr "推送規則"
+
+msgid "add_push_rule"
+msgstr "添加推送規則"
+
+msgid "push_type"
+msgstr "推送類型"
+
+msgid "add_push_type"
+msgstr "添加推送類型"
+
+msgid "edit_push_type"
+msgstr "編輯推送類型"
+
+msgid "push_type_language"
+msgstr "推送式语言"
+
+msgid "add_push_type_language"
+msgstr "添加推送式语言"
+
+msgid "edit_push_type_language"
+msgstr "編輯推送式语言"
+
+msgid "nobody_was_sent"
+msgstr "没有人被派遣"
+
+msgid "push_history_can_not_save"
+msgstr "推送歷史記錄無法保存"
+
+msgid "pushed_members_can_not_save"
+msgstr "推送的会員無法保存。但是發送了通知"
+
+msgid "push_rule_can_not_save"
+msgstr "推送規則無法保存"
+
+msgid "must_choose_member"
+msgstr "至少選擇一位会員"
+
+msgid "search_by_email"
+msgstr "电子邮件搜索"
+
+msgid "push_to_all"
+msgstr "全部會員"
+
+msgid "push_to_someone"
+msgstr "指定會員"
+
+msgid "push_to_criteria"
+msgstr "依據指定條件"
+
+msgid "instant"
+msgstr "即時發送 (一次性)"
+
+msgid "specific_datetime"
+msgstr "指定日期及時間 (一次性)"
+
+msgid "daily"
+msgstr "每日 (重複運行)"
+
+msgid "pending"
+msgstr "待定"
+
+msgid "complete"
+msgstr "完成"
+
+msgid "pushing"
+msgstr "寄信息中"
+
+msgid "short_description"
+msgstr "短描述"
+
+msgid "long_description"
+msgstr "描述"
+
+msgid "push_group"
+msgstr "推送組"
+
+msgid "system_maintennace"
+msgstr "系統維護"
+
+msgid "promotion"
+msgstr "推廣"
+
+msgid "course_information"
+msgstr "課程通知"
+
+msgid "payment_information"
+msgstr "收款通知"
+
+msgid "system_annoument"
+msgstr "系統通知"

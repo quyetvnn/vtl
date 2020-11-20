@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "promotion_section"
+msgstr "Section"
+
+msgid "object"
+msgstr "Object"
+
+msgid "link"
+msgstr "Link"
+
+msgid "title"
+msgstr "Title"
+
+msgid "message"
+msgstr "Message"
+
+msgid "tier"
+msgstr "Tiers"
+
+msgid "join_from"
+msgstr "Join from"
+
+msgid "join_to"
+msgstr "Join to"
+
+msgid "spending_form"
+msgstr "Spending from"
+
+msgid "spending_to"
+msgstr "Spending to"
+
+msgid "period_start"
+msgstr "Period start"
+
+msgid "period_end"
+msgstr "Period end"
+
+msgid "specific_date"
+msgstr "Specific date"
+
+msgid "execute_date"
+msgstr "Execute date"
+
+msgid "member_token"
+msgstr "input member token, split by 「 , 」"
+
+msgid "invalid_push_type"
+msgstr "Invalid push type"
+
+msgid "invalid_push_method"
+msgstr "Invalid push method"
+
+msgid "confirm_to_push_to_all"
+msgstr "Do you want to push messages to all members?"
+
+msgid "invalid_push_rule"
+msgstr "Invalid push rule"
+
+msgid "add_push"
+msgstr "Add Push"
+
+msgid "push_method_language"
+msgstr "Push Method Language"
+
+msgid "add_push_method_language"
+msgstr "Add Push Method Language"
+
+msgid "edit_push_method_language"
+msgstr "Edit Push Method Language"
+
+msgid "push_method"
+msgstr "Push Method"
+
+msgid "add_push_method"
+msgstr "Add Push Method"
+
+msgid "edit_push_method"
+msgstr "Edit Push Method"
+
+msgid "push_rule"
+msgstr "Push Rule"
+
+msgid "add_push_rule"
+msgstr "Add Push Rule"
+
+msgid "push_type"
+msgstr "Push Type"
+
+msgid "add_push_type"
+msgstr "Add Push Type"
+
+msgid "edit_push_type"
+msgstr "Edit Push Type"
+
+msgid "push_type_language"
+msgstr "Push Type Language"
+
+msgid "add_push_type_language"
+msgstr "Add Push Type Language"
+
+msgid "edit_push_type_language"
+msgstr "Edit Push Type Language"
+
+msgid "nobody_was_sent"
+msgstr "Nobody was sent"
+
+msgid "can_not_open_server_ios"
+msgstr "Can NOT open server IOs to push Notifification"
+
+msgid "can_not_open_server_android"
+msgstr "Can NOT open server Android to push Notifification"
+
+msgid "number_device_ios_was_sent_success"
+msgstr "%s number IOs device(s) were sent successfully"
+
+msgid "number_device_android_was_sent_success"
+msgstr "%s number Android device(s) were sent successfully"
+
+msgid "number_device_ios_was_sent_failed"
+msgstr "%s number IOs device(s) were sent FAILED"
+
+msgid "number_device_android_was_sent_failed"
+msgstr "%s number Android device(s) were sent FAILED"
+
+msgid "push_history_can_not_save"
+msgstr "Push History can not be saved"
+
+msgid "pushed_members_can_not_save"
+msgstr "Pushed members can not be saved. But notification was sent"
+
+msgid "push_rule_can_not_save"
+msgstr "Push rule can not be saved"
+
+msgid "must_choose_member"
+msgstr "Please choose at least one member"
+
+msgid "search_by_email"
+msgstr "Search by email"
+
+msgid "push_to_all"
+msgstr "Push to all member"
+
+msgid "push_to_someone"
+msgstr "Push to someone"
+
+msgid "push_to_criteria"
+msgstr "Push to criteria"
+
+msgid "instant"
+msgstr "Instant (one time)"
+
+msgid "specific_datetime"
+msgstr "Specific Datetime (One time)"
+
+msgid "daily"
+msgstr "Daily"
+
+msgid "pending"
+msgstr "Pending"
+
+msgid "complete"
+msgstr "Completed"
+
+msgid "pushing"
+msgstr "Pushing"
+
+msgid "short_description"
+msgstr "Short description"
+
+msgid "long_description"
+msgstr "Long description"
+
+msgid "push_group"
+msgstr "Push group"
+
+msgid "system_maintennace"
+msgstr "System Maintennace"
+
+msgid "promotion"
+msgstr "Promotion"
+
+msgid "course_information"
+msgstr "Course Information"
+
+msgid "payment_information"
+msgstr "Payment Information"
+
+msgid "system_annoument"
+msgstr "System Annoument"

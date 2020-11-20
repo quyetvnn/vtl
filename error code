@@ -1,0 +1,10 @@
+error code
+
+200: succeed
+
+login
+901: no user name;
+902: no password;
+903: not yet verified;
+600: invalid token -> kick user logout
+904: overlapped time

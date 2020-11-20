@@ -1,0 +1,99 @@
+
+// already exsit branch demo
+-- demo --
+forgot passwors
+login social,
+change to school code from url
+merge school page
+multi language (add chi)
+daily transaction summary
+add host_key
+
+// --------------------------
+-- production --
+add host_key
+ALTER TABLE `booster_member_login_methods` ADD `display_name` VARCHAR(255) NULL COMMENT ' = nick name' AFTER `token`;
+
+
+
+
+
+--------------------
+---- first year ----
+--------------------
+(Schools_groups) : (id=68)
+2020-2021
+P1A
+(Schools_groups) : (id=69)
+2020-2021
+P2A
+(Schools_groups) : (id=70)
+2020-2021
+P3A
+---------------------
+---- second year ---- => admin create new
+---------------------
+(Schools_groups) : (id=71)
+2021-2022
+P1A
+(Schools_groups) : (id=72)
+2021-2022
+P2A
+(Schools_groups) : (id=73)
+2021-2022
+P3A
+Ex:
+click the “升班” button => let admin choose: from groupid = 68(P1A) -> to groupid = 72(P2A)
+- System will get all list member (table members_groups) belongs to groupid=68 -> insert it into groupid=72
+- after that step: member belongs groupid=68 will upgrade to groupid=72
+- admin can add/remove manual step by hisself through manage group (each student/teacher from group)
+
+1:20
+"solutions" of "升一個年級"
+
+
+case 1: 
+email: vi.lh@vtl-vtl.com
+username: vi.lh
+school_id: 22
+group 1:
+role: student 
+
+email               username    school (input by user)  group  role: 
+vi.lh@vtl-vtl.com   vi.lh001    22                      1      student          => cannot import because same as email but username not found
+vi.lh@vtl-vtl.com   vi.lh001    23                      1/*    student/*        => cannot import because same as email but username not found
+                    vi.lh       22                      1      student          => update info member with 'vi.lh' 
+                    vi.lh       22                      1      student          => update info member with 'vi.lh' 
+                    vi.lh       22                      2      student          => add new group (keep all info)
+                    vi.lh       22                      2      teacher          => add new group, new role (keep all info)
+                    vi.lh       22                      2      teacher          => add new group, new role (keep all info)
+
+
+case 2:
+username: youwei
+school_id: 8
+group 1:
+role: student
+
+email                username  school (input by user) group role
+youwei@vtl-vtl.com   youwei       8                   1     student             => update member 'youwei' with email 'youwei@vtl-vtl.com'
+youwei@vtl-vtl.com   youwei002    8                   1     student             => add new member youwei002 into email: 'youwei@vtl-vtl.com'
+                     youwei001    8/*                 1     student             => add new member 'youwei001' with role student, on group 1, into school 8/*
+
+// all done
+- import (replac class with group)
+- import (upgrade group) from group to group 
+- import same 
+
+// plugin for visual studio
+Live Sass Compiler => live sass build less file
+GitLens => Git lens for check who push, change history from code
+
+// -------------------------------------------------
+// already on demo (not yet on production)
+// -------------------------------------------------
+
+1. group account when exist email,
+    - if create username with email -> login fb with same email -> auto binding 
+    - if login fb with email -> create another account with same as email above -> popup same with username
+2. upgrade class -> view (school class) choose class to upgrade (升級班課)

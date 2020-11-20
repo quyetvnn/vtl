@@ -1,0 +1,1 @@
+ALTER TABLE `booster_administrators` ADD `is_admin` INT NOT NULL DEFAULT '0' COMMENT '1: admin, 0: no' AFTER `name`;

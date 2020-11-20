@@ -1,0 +1,693 @@
+
+
+role
+- id
+- name
+    - is_student (tinyint) 1
+    - is_teacher
+    - is_school_admin
+    - is_parent
+    - is_guest
+    - is_system_admin
+
+School
+    - id
+    - school_code 
+    - phone
+    - address
+
+school_languages
+    - name (zho, eng)
+
+member 
+- id
+- school_code
+- password
+- username
+- name 
+- class_name: 1A, 2A 
+- level: 1 (1 年級)
+- class_no: 1
+
+member_languages
+- name (name student, zho, eng)
+- language: zho/eng
+
+member_roles
+- id
+- role
+    + 1: system admin
+    + 2: teacher:
+    + 3: student
+    + 4: school admin,
+    + 5: parent
+    + 6: guest (just can watch course free)
+    
+School
+- id
+- school_code 
+- name (zho, eng)
+- phone
+- address
+
+Teacher
+- id
+- school_code
+- password
+- username
+- name (zho, eng)
+
+Student 
+- id (100)
+- school_code
+- password
+- username (login)
+- name (name student, zho, eng)
+- class_name: 1A, 2A (zho, eng)
+- level: 1 (1 年級)
+- class_no: 1
+
+teacher_create_lesson (zoom meeting)
+- id (1)
+- title (zho, eng): 教英語
+- school_code （abc0001）
+- teacher_id (int)
+- start_time
+- duration
+- meeting_id (link will same, different id)
+- class_name： 1A
+- list_teacher
+
+Ex:
+1 1 100
+
+DB: teacher, student. (info)
+
+- login: teacher, student. 
+- landing page teacher:
+    -> see what lesson this teacher teaching   xxx
+- landing page student:
+    -> see what lesson this student will comming to study. xxx
+
+-> DB????
+teacher_create_lesson -> teacher open lesson -> admin add meeting id
+
+teacher (abc001- school_code)
+lesson name: teaching ENG
+-> student => belong the class will auto join 
+
+student_study_lesson -> 
+
+- admin page: edit teacher_create_lesson (meeting_id): no need login 
+
+
+
+
+SMTP: outlook.office365.com. Port 587
+Login: info@all4learn.com
+Password: All4Learn*
+
+
+
+school admin can edit
+school address
+tel 
+email
+image
+school_classes
+school_subjects
+
+	'joins' => array(
+                array(
+                    'table' => Environment::read('table_prefix') . 'currency_languages', 
+                    'alias' => 'language',
+                    'type' => 'inner',
+                    'conditions'=> array(
+                        $model.'.id = language.currency_id',
+                        'language.alias = \'' . $language . '\'',
+                    )
+                ),
+            ),
+
+
+
+DELETE FROM `booster_member_login_methods` WHERE member_id > 545;
+DELETE FROM `booster_members` WHERE id > 545;
+DELETE FROM `booster_member_languages` WHERE member_id > 545;
+DELETE FROM `booster_member_roles` WHERE member_id > 545;
+
+
+
+RULE ------
+Login method same with School table (create school remmber create login method too)
+
+
+
+
+
+
+
+Email content for self-registration 
+
+Dear {Mr. Chan Tai Man},
+
+Thanks for signing up All4LeARN!
+
+To confirm your membership with All4LeARN, click the link below:
+
+https://www.all4learn.com/..... 
+
+If you have any queries, please contact All4LeARN support team via below email:
+support@all4learn.com
+
+Received this email by mistakes? Just ignore it !
+
+Please do not reply this email.
+
+
+尊敬的 {陳大文}，
+感謝您註冊全民學習平台！
+
+確認您在全民學習平台的會員資格，請點擊下面的鏈接：
+https：//www.all4learn.com/…..
+
+如有任何疑問，請通過以下電子郵箱與全民學習支援團隊聯繫：
+support@all4learn.com
+
+如誤收到此電子郵箱，請忽略它！
+
+請不要回覆此電子郵箱
+
+
+
+
+
+
+After user accept the invitation from school to be a teacher or student
+
+Dear {Chan Tai Man},
+
+Congratulations!
+
+You have successfully been our {teacher/student} with {SCHOOL NAME} @All4LeARN!
+
+ As our user, you may login to enjoy any lessons at All4LeARN
+
+If you have any queries, please contact All4LeARN support team via below email:
+support@all4learn.com
+
+Received this email by mistakes? Just ignore it !
+
+Please do not reply this email.
+
+
+
+親愛的{陳大文}，
+
+恭喜！
+您已成功成為 {SCHOOL NAME} @All4LeARN 的{老師/同學}. 
+
+作為我們的用戶，您可登入而進入任何在全民學習平台的教室.
+
+如有任何疑問，請通過以下電子郵箱與全民學習支援團隊聯繫：
+support@all4learn.com
+
+如誤收到此電子郵箱，請忽略它！
+
+請不要回覆此電子郵箱
+
+
+
+
+
+// login method 
+chua cac phuong phap login 
+member role chua tat ca cac role
+
+
+
+
+TRUNCATE `booster_invite_member_histories`;
+TRUNCATE `booster_log_apis`;
+TRUNCATE `booster_members`;
+TRUNCATE `booster_member_images`;
+TRUNCATE `booster_member_languages`;
+TRUNCATE `booster_member_login_methods`;
+TRUNCATE `booster_member_roles`;
+TRUNCATE `booster_teacher_create_assignments`;
+TRUNCATE `booster_teacher_create_assignment_materials`;
+TRUNCATE `booster_student_assignment_submissions`;
+TRUNCATE `booster_student_assignment_submission_materials`;
+TRUNCATE `booster_teacher_feedback_assignment_materials`;
+TRUNCATE `booster_student_classes`;
+
+
+TRUNCATE `booster_schools`;
+TRUNCATE `booster_school_languages`;
+TRUNCATE `booster_school_images`;
+TRUNCATE `booster_school_classes`;
+TRUNCATE `booster_teacher_create_lessons`;
+
+TRUNCATE `booster_school_subjects`;
+TRUNCATE `booster_school_subject_languages`;
+
+
+ALL LINK:
+
+// link school aproved
+http://demo.all4learn.com/school_registration_approved?school=18
+
+// link school
+http://demo.all4learn.com?school_id=1&school_code=jrgps&role_id=1&email=student001@gmail.com
+http://localhost/all4learn?school_id=46&school_code=30072020&role_id=1&email=google2.com
+http://localhost/all4learn?school_id=46&school_code=30072020&role_id=1&email=facebook@gmail.com
+
+
+http://localhost/all4learn?school_id=1&school_code=jrgps&role_id=2&email=test1606@gmail.com
+
+// link forgot password
+// https://all4learn.com/forgot_password?key=2FHIOHFOAKASDHWHCHGFJJOJFOGKCB
+
+
+// pay asia config webhook
+https://demo.all4learn.com/api/payment/pay_dollars/payment_data_feed.json
+
+// permission:
++ school page: teacher / school admin 
++ assignment: 
+ - teacher create assignment
+ - student submission assignment
+
+
+//  select duplicate -------------
+-- users (name, email) --
+// -------------------------------
+
+SELECT
+    id, school_id, COUNT(*)
+FROM
+    booster_school_languages
+GROUP BY
+    id, school_id
+HAVING 
+    COUNT(*) > 3
+// -------------------------------
+
+// had any ------------------------
+function filter_student_class_duplicate_data($data) {
+
+    $result = array();
+    foreach ($data as &$v) {
+        $conditions = array(
+            'StudentClass.student_id' 	=> $v['student_id'],
+            'StudentClass.school_id' 	=> $v['school_id'],
+            'StudentClass.school_class_id' => $v['school_class_id'],
+        );
+
+        if (!$this->StudentClass->hasAny($conditions)) {
+            $result[] = $v;
+        }
+    }
+    return $result;
+}
+
+// ----------------------------------
+// save any fields ------------------
+$this->MemberLoginMethod->id = $id;
+$this->MemberLoginMethod->saveField('enabled',  !$enabled);
+
+// -----------------------------------
+// ------------ status --------------
+// -----------------------------------
+public $status = array(
+		1 => 'Approved', 	// default
+		0 => 'Rejected',	
+		2 => 'Submit'
+);
+
+// -------------------------------------------------------------
+// ------------ Override belongto parent appmodel --------------
+// -------------------------------------------------------------
+public function __construct($id = false, $table = null, $ds = null) {
+    $parent = get_parent_class($this);
+    $this->_mergeVars(array('belongsTo'), $parent);	// override belongto parent appmodel
+
+    parent::__construct($id, $table, $ds);
+}
+
+
+// ------------------------------------
+// ------------ one OR --------------
+// ------------------------------------
+$conditions = array(
+    'OR' => array(
+        array( 'MemberRole.school_id' 	=> array()),
+        array( 'MemberRole.role_id' 	=> $role),
+    );
+);
+
+// ------------------------------------
+// ------------ MULTI OR --------------
+// ------------------------------------
+
+$conditions = array();
+if ($school_id) {
+    if ($role) {
+
+        $conditions = array(
+            'OR' => array(
+                array(
+                    'MemberRole.school_id' 	=> array(),
+                    'MemberRole.role_id' 	=> $role,
+                ),
+                array(
+                    'MemberRole.school_id' 	=> array(),
+                    'MemberRole.role_id' 	=>  Environment::read('role.register'),
+                ),
+                array(
+                    'MemberRole.school_id' 	=> $school_id,
+                    'MemberRole.role_id' 	=> Environment::read('role.register'),
+                ),
+                array(
+                    'MemberRole.school_id' 	=> $school_id,
+                    'MemberRole.role_id' 	=> $role
+                ),
+            ),
+        );
+        
+    }  else {
+        $conditions = array(
+            'MemberRole.school_id' 	=> $school_id,
+        );
+    }
+
+} else {
+
+    if ($role) {
+        $conditions['OR'] = array(
+            array('MemberRole.role_id' => $role),
+            array('MemberRole.role_id' => Environment::read('role.register')), 			// get register role 
+        );
+    }
+}
+
+
+return $this->find('list', array(
+    'fields' => array(
+        'MemberLanguage.member_id',
+        'MemberLanguage.name'
+    ),
+    'conditions' => $conditions,
+    'joins' => array(
+        array(
+            'table' => Environment::read('table_prefix') . 'member_languages', 
+            'alias' => 'MemberLanguage',
+            'type' => 'INNER',
+            'conditions'=> array(
+                'MemberLanguage.member_id = MemberRole.member_id',
+                'MemberLanguage.alias' => $language,
+            )
+        ),
+    ),
+));
+
+
+// ----------
+filter search
+<?= $this->element('Member.StudentClass_filter', array(
+	'data_search' => $data_search
+)); ?>
+
+- combobox neu nhu ko search dc vi co nhieu dieu kien rang buoc lan nhau, nen de sang textbox cho user nhap
+- luu id thi nen dung combox search
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------------------
+<script type="text/javascript" charset="utf-8">
+	var article_images = { count: 0 };
+
+	// $(document).on('click', '.btn-remove-image', function(e){	// btn-remove-image not from this file, we should use this method
+	// 	e.preventDefault();
+
+	// 	console.log('btn-remove-image click');
+	// 	article_images.count = $('.images-upload > .well').length;
+	// 	article_images.count--;
+
+	// 	$(this).closest(".well").remove();
+
+	// 	var limit = '<?= isset($limit) ? $limit : 0 ?>';
+	// 	if (limit > 0 && article_images.count < limit) {
+	// 		$('.btn-new-image').show();
+	// 		console.log("btn-remove-image: article_images.count" + article_images.count);
+	// 		console.log("btn-remove-image: limit " + limit);
+	// 	} 
+    // });
+
+	$(document).ready(function(){
+		article_images.count = $('.images-upload > .well').length;
+
+		var url = '<?php echo $add_new_images_url; ?>';
+
+
+		var limit = '<?= isset($limit) ? $limit : 0; ?>';
+		if (limit > 0 && article_images.count >= limit) {
+			$('.btn-new-image').hide();
+		}
+
+
+		$('.btn-remove-uploaded-image').on('click', function( e ){
+			e.preventDefault();
+			console.log('btn-remove-uploaded-image click');
+			var image_id = $(this).data('image-id');
+
+			var remove_hidden_input = '<input type="hidden" name="data[remove_image][]" value="'+image_id+'">';
+			article_images.count = $('.images-upload > .well').length;
+			article_images.count--;
+			
+			$(this).parents('.images-upload').append( remove_hidden_input );
+			$(this).closest(".well").remove();
+
+			var limit = '<?= isset($limit) ? $limit : 0 ?>';
+			if (limit > 0 && article_images.count < limit) {
+				$('.btn-new-image').show();
+				console.log("btn-remove-uploaded-image: article_images.count" + article_images.count);
+				console.log("btn-remove-uploaded-image: limit " + limit);
+			}
+		});
+
+		$('.btn-new-image').on('click', function( e ){
+			e.preventDefault();
+		
+			COMMON.call_ajax({
+				type: "POST",
+				url: url,
+				dataType: 'html',
+				cache: false,
+				data: {
+					count: article_images.count,
+					images_model: '<?php echo $images_model; ?>',
+					base_model: '<?php echo isset($base_model) ? $base_model : ''; ?>',
+				},
+				success: function( result ){
+					var counter = (article_images.count - 1);
+					var limit = '<?= isset($limit) ? $limit : 0; ?>';
+
+					if( counter < 0 ){
+						$('.images-upload > .images-upload-row').before( result );
+					} else {
+						$('.images-upload > .well').eq( counter ).after( result );
+					}
+
+					article_images.count++;
+					if (limit > 0 && article_images.count >= limit) {
+						$('.btn-new-image').hide();
+					}
+
+
+					$('.btn-remove-image').on('click', function( e ){		// we cannot trigger the click event on another form but we can trigger on ajax call
+						e.preventDefault();
+
+						article_images.count--;
+						if (limit > 0 && article_images.count < limit) {
+							$('.btn-new-image').show();
+						}
+
+						$(this).closest(".well").remove();
+					});
+				},
+				error: function( result ){
+					//console.log('error :');
+					console.log( result );
+				}
+			});
+		});
+	});
+</script>
+
+// -------------------------------------
+// ------- pass param to AppModel ------
+// -------------------------------------
+
+save from any Model
+if (!$this->save($data, array('created_by' => $member_id))) {	// pass param to AppModel Before save
+    return false;
+}
+
+AppModel.php
+function beforeSave( $options = array() ) {
+
+    if (isset($options['created_by'])) {
+        $this->data[$this->alias]['created_by'] = $options['created_by'];
+        return;
+    }
+    if (isset($options['updated_by'])) {
+        $this->data[$this->alias]['updated_by'] = $options['updated_by'];
+        return;
+    }
+}
+
+
+// -------------------------------------------------------------------------------------------------------------------
+
+FORGOT FLOW:
+add 1 columns forgot_key to db => 
+forgot link will same here: 
+https://all4learn?forgot_password&key=3fsfh32rfnfwhfnsfsfnskfsnseksnfefnelfnenfekn
+
+update this key to db each user gen this key 
+
+
+when user click into the link / input this link to browser => 
+db check this key is exist in DB?, if exist -> found member id -> update all password exclude social network password
+clear this forgot key in db -> 
+
+
+
+// ----- show duplicate email columns->data -----/
+SELECT 
+   email,
+    COUNT(*) as cont
+FROM `booster_members`
+GROUP BY
+    email
+HAVING 
+    COUNT(*) > 1;
+
+/* ---- REMOVE PARENT ARRAY AND MERGE CHILD ARRAY -> using array_walk_recursive ------- */
+
+$temp = array();
+foreach ($result as $val) {
+    $temp[] = array(
+        $val['School']['id'] => $val['SchoolLanguage']['name'] . " (" . $val['School']['school_code'] . ")",
+    );
+}
+
+Array
+(
+    [0] => Array
+        (
+            [22] => vistudent (vistudent)
+        )
+
+    [1] => Array
+        (
+            [33] => testschool (tesschool)
+        )
+
+)
+
+
+$temp2 = array();
+array_walk_recursive($temp, function($val, $key) use(&$temp2) {
+    $temp2[$key] = $val;
+});
+
+
+Array
+(
+    [22] => vistudent (vistudent)
+    [33] => testschool (tesschool)
+)
+
+// show duplicate  booster_member_languages
+SELECT 
+   alias, member_id,
+    COUNT(*) as cont
+FROM `booster_member_languages`
+GROUP BY
+    alias, member_id
+HAVING 
+    COUNT(*) > 1;
+
+
+SELECT 
+   username,
+    COUNT(*) as cont
+FROM `booster_members`
+GROUP BY
+    username
+HAVING 
+    COUNT(*) > 1;
+
+
+https://all4learn?forgot_password&key=87035632CDF727EBA1346D4C47A527A9
+    
+
+
+teacher_lessons_schedules (for each student, teacher we can know who is attend, paid, no stored group)
+teacher_lessons_schedules_histories (many records) (archive from teacher_lessons_schedules)
+
+--------------------
+---- first year ----
+--------------------
+(Schools_groups) : (id=68)
+2020-2021
+P1A
+(Schools_groups) : (id=69)
+2020-2021
+P2A
+(Schools_groups) : (id=70)
+2020-2021
+P3A
+
+---------------------
+---- second year ---- => admin create new
+---------------------
+(Schools_groups) : (id=71)
+2021-2022
+P1A
+(Schools_groups) : (id=72)
+2021-2022
+P2A
+(Schools_groups) : (id=73)
+2021-2022
+P3A
+
+Ex:
+click the “升班” button => let admin choose: from groupid = 68(P1A) -> to groupid = 72(P2A)
+- System will get all list member (table members_groups) belongs to groupid=68 -> insert it into groupid=72 
+- after that step: member belongs groupid=68 will upgrade to groupid=72
+- admin can add/remove manual step by hisself through manage group (each student/teacher from group)
+- NOTE: we dont remove the student/teacher from old groups because if remove them, something will lost 
+(example: assignment, lesson, and this student/teacher cannot look back his/her old resources)
+
+// import to group, not to class anymore => check import template
+// remove admin import student/teacher
+// [Questions] import , create -> required email + phone?????
+// setUseUploadTempDirectory
+
+
+
+DELETE FROM `booster_members` WHERE `id` IN (3508,3509,3510,3511,3512,3513,3514,3515,3516,3517,3518,3519,3520,3521,3522,3523,3524,3525,3526,3527,3528,3529,3530,3531,3532,3533,3534,3535,3536,3537,3538,3539,3540,3541,3542,3543,3544,3545,3546,3547,3548,3549,3550,3551,3552,3553,3554,3562,3561)
+DELETE FROM `booster_member_login_methods` WHERE `member_id` IN (3508,3509,3510,3511,3512,3513,3514,3515,3516,3517,3518,3519,3520,3521,3522,3523,3524,3525,3526,3527,3528,3529,3530,3531,3532,3533,3534,3535,3536,3537,3538,3539,3540,3541,3542,3543,3544,3545,3546,3547,3548,3549,3550,3551,3552,3553,3554,3562,3561) and `login_method_id` = 53
+DELETE FROM `booster_member_roles` WHERE `member_id` IN (3508,3509,3510,3511,3512,3513,3514,3515,3516,3517,3518,3519,3520,3521,3522,3523,3524,3525,3526,3527,3528,3529,3530,3531,3532,3533,3534,3535,3536,3537,3538,3539,3540,3541,3542,3543,3544,3545,3546,3547,3548,3549,3550,3551,3552,3553,3554,3562,3561) and `school_id` = 53

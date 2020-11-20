@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "school"
+msgstr "學校"
+
+msgid "schools"
+msgstr "學校列表"
+
+msgid "add_school"
+msgstr "新增學校"
+
+msgid "edit_school"
+msgstr "編輯學校"
+
+msgid "school_code"
+msgstr "學校編號"
+
+msgid "credit_charge"
+msgstr "收费"
+
+msgid "credit"
+msgstr "充值"
+
+msgid "address"
+msgstr "地址"
+
+msgid "level"
+msgstr "級別"
+
+msgid "school_class"
+msgstr "班别列表"
+
+msgid "school_classes"
+msgstr "班别列表"
+
+msgid "add_school_class"
+msgstr "新增班别列表"
+
+msgid "edit_school_class"
+msgstr "編輯班别列表"
+
+msgid "about_us"
+msgstr "關於我們"
+
+msgid "school_subject"
+msgstr "科目列表"
+
+msgid "school_subjects"
+msgstr "科目列表"
+
+msgid "add_school_subject"
+msgstr "新增科目列表"
+
+msgid "edit_school_subject"
+msgstr "編輯科目列表"
+
+msgid "school_business_registration"
+msgstr "學校營業登記"
+
+msgid "student_classes"
+msgstr "學生編班"
+
+msgid "student_class"
+msgstr "學生編班"
+
+msgid "create_classes"
+msgstr "建立課程"
+
+msgid "add_student_class"
+msgstr "編班"
+
+msgid "edit_student_class"
+msgstr "編輯學生編班"
+
+msgid "class_no"
+msgstr "次序排列"
+
+msgid "second_class"
+msgstr "次班"
+
+msgid "primary_class"
+msgstr "主班"
+
+msgid "student_is_exist"
+msgstr "這班已經加了這學生"
+
+msgid "school_code_is_exist"
+msgstr "學校編號已經存在"
+
+msgid "school_logo"
+msgstr "學校標誌"
+
+msgid "normal"
+msgstr "正常"
+
+msgid "blocked"
+msgstr "封鎖"
+
+msgid "closed"
+msgstr "註銷"
+
+msgid "duplicate_logo_banner"
+msgstr "每間學校只允許一個學校標誌和一個學校橫額"
+
+msgid "schedule_the_class"
+msgstr "編班"
+
+msgid "school_not_available"
+msgstr "學校不可用"
+
+msgid "assignment_not_available"
+msgstr "分配不可用"
+
+msgid "bulletin_board"
+msgstr "公告板"
+
+msgid "category"
+msgstr "類別"
+
+msgid "add_student_to_class"
+msgstr "升級班"
+
+msgid "add_all_student_to_class"
+msgstr "升級全部學生"
+
+msgid "upgrade_class"
+msgstr "升級班"
+
+msgid "please_choose_student"
+msgstr "請選擇學生"

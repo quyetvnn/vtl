@@ -1,0 +1,3 @@
+ALTER TABLE `booster_import_histories` CHANGE `message` `message` LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL;
+ALTER TABLE `booster_schools` CHANGE `status` `status` INT(11) NOT NULL DEFAULT '1' COMMENT '2: processing, 1: approved, 0: reject';
+ALTER TABLE `booster_student_classes` CHANGE `class_no` `class_no` INT(11) NULL DEFAULT '0' COMMENT 'no of this student in class';
